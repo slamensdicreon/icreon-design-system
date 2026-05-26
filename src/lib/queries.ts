@@ -1,4 +1,4 @@
-import { getOptimizelyClient } from "./optimizely";
+import { getOptimizelyClient, isConfigured } from "./optimizely";
 
 const COMPONENT_FIELDS = `
   _metadata { types displayName key }
@@ -72,6 +72,7 @@ const EXPERIENCE_QUERY = `
 `;
 
 export async function getExperienceByPath(path: string) {
+  if (!isConfigured()) return null;
   const client = getOptimizelyClient();
 
   const query = `{
@@ -103,6 +104,7 @@ export async function getExperienceByPath(path: string) {
 }
 
 export async function getContentByPath(path: string) {
+  if (!isConfigured()) return null;
   const client = getOptimizelyClient();
   return client.getContentByPath(path);
 }
@@ -112,6 +114,7 @@ export async function getStartPage() {
 }
 
 export async function getBlogPosts(limit = 10) {
+  if (!isConfigured()) return [];
   const client = getOptimizelyClient();
   const query = `{
     BlogPostPage(limit: ${limit}, orderBy: { _modified: DESC }) {
