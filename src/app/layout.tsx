@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { registerComponents } from "@/lib/component-registry";
+import { ensureOptimizelyConfig } from "@/lib/optimizely";
 import "./globals.css";
+
+ensureOptimizelyConfig();
+registerComponents();
 
 const inter = Inter({
   variable: "--font-inter",

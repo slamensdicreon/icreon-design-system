@@ -1,9 +1,25 @@
-import Link from "next/link";
+import { getStartPage } from "@/lib/queries";
+import { OptimizelyComposition } from "@optimizely/cms-sdk/react/server";
 import HeroBlock from "@/components/blocks/HeroBlock";
 import CardBlock from "@/components/blocks/CardBlock";
 import CTABlock from "@/components/blocks/CTABlock";
 
-export default function Home() {
+async function getCmsHomepage() {
+  try {
+    const experience = await getStartPage();
+    return experience?.composition?.nodes ?? null;
+  } catch {
+    return null;
+  }
+}
+
+export default async function Home() {
+  const compositionNodes = await getCmsHomepage();
+
+  if (compositionNodes) {
+    return <OptimizelyComposition nodes={compositionNodes} />;
+  }
+
   return (
     <>
       <HeroBlock
@@ -62,9 +78,7 @@ export default function Home() {
 
       <section className="py-16 px-6">
         <div className="mx-auto max-w-7xl text-center">
-          <h2 className="text-2xl font-bold text-slate-900">
-            Powered By
-          </h2>
+          <h2 className="text-2xl font-bold text-slate-900">Powered By</h2>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-12 text-slate-400">
             <span className="text-lg font-semibold">Optimizely CMS</span>
             <span className="text-lg font-semibold">Next.js</span>

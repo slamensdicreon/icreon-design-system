@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import { getOptimizelyClient } from "@/lib/optimizely";
-import { OptimizelyComponent } from "@optimizely/cms-sdk/react/server";
+import {
+  OptimizelyComponent,
+  OptimizelyComposition,
+} from "@optimizely/cms-sdk/react/server";
 
 interface PageProps {
   params: Promise<{ slug: string[] }>;
@@ -12,19 +15,21 @@ export default async function CmsPage({ params }: PageProps) {
 
   try {
     const client = getOptimizelyClient();
-    const content = await client.getContentByPath(urlPath);
+    const results = await client.getContentByPath(urlPath);
 
-    if (!content || (Array.isArray(content) && content.length === 0)) {
+    if (!results || (Array.isArray(results) && results.length === 0)) {
       notFound();
     }
 
-    const pageContent = Array.isArray(content) ? content[0] : content;
+    const content = Array.isArray(results) ? results[0] : results;
 
-    return (
-      <div>
-        <OptimizelyComponent content={pageContent} />
-      </div>
-    );
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const composition = (content as any)?.composition?.nodes;
+    if (composition) {
+      return <OptimizelyComposition nodes={composition} />;
+    }
+
+    return <OptimizelyComponent content={content} />;
   } catch {
     notFound();
   }
