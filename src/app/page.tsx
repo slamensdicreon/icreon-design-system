@@ -1,23 +1,22 @@
 import { getStartPage } from "@/lib/queries";
-import { OptimizelyComposition } from "@optimizely/cms-sdk/react/server";
+import CmsComposition from "@/components/shared/CmsComposition";
 import HeroBlock from "@/components/blocks/HeroBlock";
 import CardBlock from "@/components/blocks/CardBlock";
 import CTABlock from "@/components/blocks/CTABlock";
 
-async function getCmsHomepage() {
-  try {
-    const experience = await getStartPage();
-    return experience?.composition?.nodes ?? null;
-  } catch {
-    return null;
-  }
-}
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const compositionNodes = await getCmsHomepage();
+  let compositionNodes = null;
+  try {
+    const experience = await getStartPage();
+    compositionNodes = experience?.composition?.nodes ?? null;
+  } catch {
+    // fall through to static content
+  }
 
   if (compositionNodes) {
-    return <OptimizelyComposition nodes={compositionNodes} />;
+    return <CmsComposition nodes={compositionNodes} />;
   }
 
   return (

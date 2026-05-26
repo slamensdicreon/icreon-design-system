@@ -1,16 +1,22 @@
 import Image from "next/image";
 
+interface ImageElementData {
+  altText?: string;
+  imageLink?: { url?: { default?: string } };
+}
+
 interface ImageElementProps {
+  content?: ImageElementData;
   altText?: string;
   imageLink?: { url?: { default?: string } };
   displaySettings?: Record<string, string>;
 }
 
-export default function ImageElement({
-  altText,
-  imageLink,
-}: ImageElementProps) {
-  const src = imageLink?.url?.default;
+export default function ImageElement(props: ImageElementProps) {
+  const altText = props.content?.altText ?? props.altText;
+  const src =
+    props.content?.imageLink?.url?.default ?? props.imageLink?.url?.default;
+
   if (!src) return null;
 
   return (

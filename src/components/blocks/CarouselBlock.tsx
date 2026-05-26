@@ -1,8 +1,11 @@
+import QuoteBlock from "./QuoteBlock";
+
 interface QuoteItem {
-  _metadata?: {
-    types?: string[];
-    displayName?: string;
-  };
+  _metadata?: { types?: string[]; displayName?: string };
+  QuoteText?: string;
+  QuoteProfileName?: string;
+  QuoteProfileLocation?: string;
+  QuoteProfilePicture?: { url?: { default?: string } };
 }
 
 interface CarouselBlockProps {
@@ -20,15 +23,15 @@ export default function CarouselBlock({
       <div className="mx-auto max-w-5xl">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {CarouselItemsContentArea.map((item, index) => (
-            <div
+            <QuoteBlock
               key={index}
-              className="rounded-lg bg-white p-6 shadow-sm"
-            >
-              <div className="mb-4 text-4xl text-indigo-300">&ldquo;</div>
-              <p className="text-sm text-slate-600">
-                {item._metadata?.displayName}
-              </p>
-            </div>
+              QuoteText={item.QuoteText}
+              QuoteProfileName={
+                item.QuoteProfileName || item._metadata?.displayName
+              }
+              QuoteProfileLocation={item.QuoteProfileLocation}
+              QuoteProfilePicture={item.QuoteProfilePicture}
+            />
           ))}
         </div>
       </div>

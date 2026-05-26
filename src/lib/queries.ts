@@ -1,10 +1,36 @@
 import { getOptimizelyClient } from "./optimizely";
 
-const EXPERIENCE_FRAGMENT = `
+const COMPONENT_FIELDS = `
+  _metadata { types displayName key }
+  ... on HeadingElement { headingText }
+  ... on ParagraphElement { text { html } }
+  ... on CTAElement { Text Link { default } }
+  ... on ImageElement { altText imageLink { url { default } } }
+  ... on RichTextElement { text { html } }
+  ... on VideoElement { title video { url { default } } placeholder { url { default } } }
+  ... on ButtonBlock { ButtonText ButtonUrl { default } ButtonVariant }
+  ... on ArticleListElement { articleListCount topics }
+  ... on OdpEmbedBlock { ContentId }
+  ... on HeroBlock {
+    Heading SubHeading Eyebrow HeroColor
+    HeroImage { url { default } }
+    Description { html }
+    HeroButton { ButtonText ButtonUrl { default } ButtonVariant }
+  }
+  ... on CarouselBlock {
+    CarouselItemsContentArea {
+      _metadata { types displayName }
+      ... on QuoteBlock {
+        QuoteText QuoteProfileName QuoteProfileLocation
+        QuoteProfilePicture { url { default } }
+      }
+    }
+  }
+`;
+
+const EXPERIENCE_QUERY = `
   _metadata {
-    key
-    displayName
-    types
+    key displayName types
     url { default }
   }
   composition {
@@ -19,50 +45,27 @@ const EXPERIENCE_FRAGMENT = `
             nodes {
               key type nodeType displayName
               displaySettings { key value }
-              ... on CompositionComponentNode {
-                component {
-                  _metadata { types displayName }
-                  ... on HeadingElement { headingText }
-                  ... on ParagraphElement { text { html } }
-                  ... on CTAElement { Text Link { default } }
-                  ... on ImageElement { altText imageLink { url { default } } }
-                  ... on RichTextElement { text { html } }
-                  ... on VideoElement { title video { url { default } } placeholder { url { default } } }
-                  ... on ButtonBlock { ButtonText ButtonUrl { default } ButtonVariant }
-                  ... on ContentRecsElement { ElementDeliveryApiKey ElementRecommendationCount }
+              ... on CompositionStructureNode {
+                nodes {
+                  key type nodeType displayName
+                  displaySettings { key value }
+                  ... on CompositionComponentNode {
+                    component { ${COMPONENT_FIELDS} }
+                  }
                 }
+              }
+              ... on CompositionComponentNode {
+                component { ${COMPONENT_FIELDS} }
               }
             }
           }
           ... on CompositionComponentNode {
-            component {
-              _metadata { types displayName }
-              ... on HeadingElement { headingText }
-              ... on ParagraphElement { text { html } }
-              ... on CTAElement { Text Link { default } }
-              ... on ImageElement { altText imageLink { url { default } } }
-              ... on RichTextElement { text { html } }
-              ... on VideoElement { title video { url { default } } placeholder { url { default } } }
-              ... on ButtonBlock { ButtonText ButtonUrl { default } ButtonVariant }
-            }
+            component { ${COMPONENT_FIELDS} }
           }
         }
       }
       ... on CompositionComponentNode {
-        component {
-          _metadata { types displayName }
-          ... on HeroBlock {
-            Heading SubHeading Eyebrow HeroColor
-            HeroImage { url { default } }
-            Description { html }
-            HeroButton { ButtonText ButtonUrl { default } ButtonVariant }
-          }
-          ... on CarouselBlock {
-            CarouselItemsContentArea {
-              _metadata { types displayName }
-            }
-          }
-        }
+        component { ${COMPONENT_FIELDS} }
       }
     }
   }
@@ -70,20 +73,33 @@ const EXPERIENCE_FRAGMENT = `
 
 export async function getExperienceByPath(path: string) {
   const client = getOptimizelyClient();
+
   const query = `{
     BlankExperience(
       where: { _metadata: { url: { default: { eq: "${path}" } } } }
       limit: 1
     ) {
-      items {
-        ${EXPERIENCE_FRAGMENT}
-      }
+      items { ${EXPERIENCE_QUERY} }
     }
   }`;
 
   const result = await client.request(query, {});
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return (result as any)?.BlankExperience?.items?.[0] ?? null;
+  const item = (result as any)?.BlankExperience?.items?.[0];
+  if (item) return item;
+
+  const blogQuery = `{
+    BlogSectionExperience(
+      where: { _metadata: { url: { default: { eq: "${path}" } } } }
+      limit: 1
+    ) {
+      items { ${EXPERIENCE_QUERY} }
+    }
+  }`;
+
+  const blogResult = await client.request(blogQuery, {});
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return (blogResult as any)?.BlogSectionExperience?.items?.[0] ?? null;
 }
 
 export async function getContentByPath(path: string) {
@@ -113,19 +129,4 @@ export async function getBlogPosts(limit = 10) {
   const result = await client.request(query, {});
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return (result as any)?.BlogPostPage?.items ?? [];
-}
-
-export async function getExperiences(limit = 20) {
-  const client = getOptimizelyClient();
-  const query = `{
-    BlankExperience(limit: ${limit}) {
-      items {
-        _metadata { key displayName url { default } }
-      }
-    }
-  }`;
-
-  const result = await client.request(query, {});
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return (result as any)?.BlankExperience?.items ?? [];
 }
