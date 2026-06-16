@@ -47,6 +47,26 @@ export interface CompaniesDataset {
 export const dataset = rawData as CompaniesDataset;
 export const companies = dataset.companies;
 
+/** URL-safe slug for a company (used for the per-subsidiary "site" routes). */
+export function slugify(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+export function companySlug(company: Company): string {
+  return slugify(company.name);
+}
+
+export function findCompanyBySlug(slug: string): Company | undefined {
+  return companies.find((c) => companySlug(c) === slug);
+}
+
+export function getCompany(id: number): Company | undefined {
+  return companies.find((c) => c.id === id);
+}
+
 /** GeoJSON feature for one location, carrying its company id for interaction. */
 export type LocationFeature = GeoJSON.Feature<
   GeoJSON.Point,

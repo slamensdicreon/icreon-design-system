@@ -1,8 +1,23 @@
-# Dycom Family of Companies — Interactive Map
+# Dycom Family of Companies — One Connected Network
 
-An interactive map for browsing Dycom's 38 operating companies and their
-nationwide network of 551 locations across all 50 states. Built with
-Next.js and Mapbox GL.
+An interactive demo showing how Dycom's parent map, every subsidiary site,
+and SAP SuccessFactors job postings can run off a **single source of
+truth** instead of today's fragmented, unlinked maps. Built with Next.js
+and Mapbox GL.
+
+## The demo story
+
+- **Parent view (`/`)** — the full network: 38 operating companies, 551
+  locations across 50 states, and every open role across the family.
+- **Subsidiary sites (`/c/[company]`)** — each child "website" reads from
+  the same data. Even though you land on one company's site, you can see
+  **all** open roles across the family, not just theirs — the core fix for
+  the SuccessFactors siloing problem.
+- **Network map / Open roles map** toggle — see locations or hiring
+  density nationwide from any entry point.
+- **Post a role (demo)** — add a role once and it appears instantly on the
+  parent map, the subsidiary's site, and the "SuccessFactors" feed.
+  Updates persist (localStorage) and sync across browser tabs.
 
 ## Getting started
 
@@ -28,8 +43,12 @@ still loads but the map area shows a placeholder.
 
 ## Project structure
 
-- `src/app/page.tsx` — page shell with the branded hero and stats
-- `src/app/CompaniesExplorer.tsx` — searchable sidebar + company detail
-- `src/app/DycomMap.tsx` — Mapbox map (clustered locations + focus layer)
-- `src/app/data/dycom-companies.json` — the company + location dataset
-- `src/app/brand.ts` — Dycom brand tokens and state-name lookup
+- `src/app/page.tsx` — parent network view
+- `src/app/c/[slug]/page.tsx` — per-subsidiary "site" view
+- `src/app/CompaniesExplorer.tsx` — the connected experience (header,
+  perspective switcher, sidebar, post-a-role)
+- `src/app/DycomMap.tsx` — Mapbox map (clustered base + focus layer)
+- `src/app/network-store.tsx` — the shared single-source-of-truth store
+- `src/app/jobs.ts` — mock SAP SuccessFactors requisition feed
+- `src/app/data/dycom-companies.json` — company + location dataset
+- `src/app/types.ts`, `src/app/brand.ts` — data helpers and brand tokens
