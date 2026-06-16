@@ -7,17 +7,19 @@ and Mapbox GL.
 
 ## The demo story
 
-- **Parent view (`/`)** — the full network: 38 operating companies, 551
-  locations across 50 states, and every open role across the family.
-- **Subsidiary sites (`/c/[company]`)** — each child "website" reads from
-  the same data. Even though you land on one company's site, you can see
-  **all** open roles across the family, not just theirs — the core fix for
-  the SuccessFactors siloing problem.
-- **Network map / Open roles map** toggle — see locations or hiring
-  density nationwide from any entry point.
-- **Post a role (demo)** — add a role once and it appears instantly on the
-  parent map, the subsidiary's site, and the "SuccessFactors" feed.
-  Updates persist (localStorage) and sync across browser tabs.
+- **Parent site (`/`)** — Dycom corporate chrome and the full network: 38
+  companies, 551 locations across 50 states, and every open role.
+- **Subsidiary sites (`/c/[company]`)** — each one looks like its own
+  independent domain (its own logo nav, accent color, hero and footer), but
+  embeds the **same connected map**. Even though you land on one company's
+  site, you can see **all** open roles across the family, not just theirs —
+  the core fix for the SuccessFactors siloing problem.
+- **One shared map** — markers look identical on every site (the common,
+  connected layer) while the surrounding brand differs site to site.
+- **Network map / Open roles map** toggle — see locations or hiring across
+  the whole family from any entry point.
+- **Demo navigator** — a thin bar at the very top lets you jump between the
+  parent and any subsidiary to see the shared map under different brands.
 
 ## Getting started
 
@@ -43,12 +45,14 @@ still loads but the map area shows a placeholder.
 
 ## Project structure
 
-- `src/app/page.tsx` — parent network view
-- `src/app/c/[slug]/page.tsx` — per-subsidiary "site" view
-- `src/app/CompaniesExplorer.tsx` — the connected experience (header,
-  perspective switcher, sidebar, post-a-role)
+- `src/app/page.tsx` — parent corporate site
+- `src/app/c/[slug]/page.tsx` — per-subsidiary "site" route
+- `src/app/SubsidiaryChrome.tsx` — independent-looking subsidiary chrome
+- `src/app/NetworkExperience.tsx` — the shared, themeable connected map +
+  sidebar (companies, roles, detail)
 - `src/app/DycomMap.tsx` — Mapbox map (clustered base + focus layer)
-- `src/app/network-store.tsx` — the shared single-source-of-truth store
+- `src/app/DemoBar.tsx` — top demo navigator (jump between sites)
+- `src/app/themes.ts` — per-company accent themes
 - `src/app/jobs.ts` — mock SAP SuccessFactors requisition feed
 - `src/app/data/dycom-companies.json` — company + location dataset
 - `src/app/types.ts`, `src/app/brand.ts` — data helpers and brand tokens
