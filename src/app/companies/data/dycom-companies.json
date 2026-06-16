@@ -1,0 +1,4367 @@
+{
+  "companyCount": 38,
+  "locationCount": 551,
+  "stateCount": 50,
+  "states": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI",
+    "WV",
+    "WY"
+  ],
+  "companies": [
+    {
+      "id": 3655,
+      "name": "Ansco & Associates, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/ANSCO_Logo.png",
+      "website": "https://anscollc.com/",
+      "careers": "https://anscollc.com/careers/",
+      "description": "Ansco & Associates, LLC (\"Ansco\") is a specialized contractor providing services to telecommunications providers, electric utilities, and others. From the engineering, construction and maintenance of underground and aerial utility lines to the placement and installation of optical fiber cable for long distance transmission, local loop and broadband facilities, Ansco is an experienced, progressive utility contractor. Headquartered in Alpharetta, Georgia, Ansco provides its services throughout the Southeastern United States. Ansco works under contract for multiple communications, power and cable TV companies, providing basic and expanded services from over 20 field offices. The company provides field engineering, drafting and design for many communications clients. Ansco has the ability to offer turn-key services for designing, building, and maintaining any communications project. Since its inception in 1979, Ansco has provided a superior level of service to its customers. This commitment to excellence extends throughout the company's work, services, and business practices.",
+      "headquarters": {
+        "address": "200 North Point Center East, Suite 400",
+        "city": "Alpharetta",
+        "state": "GA",
+        "zip": "30022",
+        "phone": "(404) 508-5700",
+        "fax": "",
+        "lng": -84.299293,
+        "lat": 34.046322
+      },
+      "states": [
+        "AZ",
+        "GA",
+        "NC",
+        "SC",
+        "TX"
+      ],
+      "locations": [
+        {
+          "lng": -84.299293,
+          "lat": 34.046322,
+          "state": "GA",
+          "primary": true
+        },
+        {
+          "lng": -97.254307,
+          "lat": 32.691817,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -97.00644,
+          "lat": 32.912567,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -111.771434,
+          "lat": 33.418871,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -80.073464,
+          "lat": 32.925755,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.91855,
+          "lat": 32.47604,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -79.865337,
+          "lat": 36.058746,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -95.405425,
+          "lat": 29.634884,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -95.522304,
+          "lat": 29.947879,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -95.505968,
+          "lat": 29.930874,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -81.999291,
+          "lat": 34.967715,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.691815,
+          "lat": 34.549045,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.396563,
+          "lat": 34.673003,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.468841,
+          "lat": 34.841258,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -81.088105,
+          "lat": 33.990833,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -79.775171,
+          "lat": 34.221735,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -81.733364,
+          "lat": 33.564926,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -80.224399,
+          "lat": 36.060125,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -82.667706,
+          "lat": 35.546467,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -81.627173,
+          "lat": 35.845966,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -79.749351,
+          "lat": 36.078657,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -79.170704,
+          "lat": 35.926488,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -81.240174,
+          "lat": 35.502617,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -78.614171,
+          "lat": 35.711264,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -80.846403,
+          "lat": 35.828525,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -79.127749,
+          "lat": 34.613251,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -80.807716,
+          "lat": 35.269658,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -77.909374,
+          "lat": 34.329524,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -84.355889,
+          "lat": 33.502919,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.968844,
+          "lat": 33.988578,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.251751,
+          "lat": 33.797279,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.751099,
+          "lat": 33.601019,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.259716,
+          "lat": 34.127066,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.209476,
+          "lat": 33.844819,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.565564,
+          "lat": 33.975966,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -82.123129,
+          "lat": 33.485742,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.292807,
+          "lat": 33.897852,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.680621,
+          "lat": 33.793672,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -85.246852,
+          "lat": 34.27799,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -82.38115,
+          "lat": 31.790256,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.801538,
+          "lat": 34.253701,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.802018,
+          "lat": 34.254782,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -81.210886,
+          "lat": 32.051066,
+          "state": "GA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 7221,
+      "name": "Bigham Cable Construction, Inc",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/08/bigham-cable-logo-300x120.png",
+      "website": "https://bighamcable.com/",
+      "careers": "https://bighamcable.com/careers/",
+      "description": "Bigham Cable Construction Inc. (\u201cBigham\u201d) is a complete turnkey provider of telecommunication services specializing in aerial and underground fiber optic cable construction, splicing, inside-plant engineering (ISP), emergency response and storm restoration. Bigham also performs complete home installations, including transfers and rebuilds to complete installations with converter boxes and modems. Since it was founded in 1977, Bigham holds an outstanding reputation in the industry for quality construction on new builds, rebuilds, and upgrade projects in cable television and telephone construction projects. Based out of Gulf Breeze, Florida, Bigham operates throughout the Southeastern United States. Bigham\u2019s experienced and knowledgeable workforce takes pride in completing projects to meet every customer\u2019s technical specification and deadline.",
+      "headquarters": {
+        "address": "3171 Gulf Breeze Parkway",
+        "city": "Gulf Breeze",
+        "state": "FL",
+        "zip": "32563",
+        "phone": "(800) 441-0780",
+        "fax": "(850) 932-8097",
+        "lng": -86.975709,
+        "lat": 30.403811
+      },
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "NC",
+        "SC"
+      ],
+      "locations": [
+        {
+          "lng": -86.975709,
+          "lat": 30.403811,
+          "state": "FL",
+          "primary": true
+        },
+        {
+          "lng": -82.47501,
+          "lat": 34.758918,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.472799,
+          "lat": 34.759091,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.46771,
+          "lat": 34.78428,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -81.321131,
+          "lat": 35.728018,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -81.747092,
+          "lat": 35.320538,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -81.675001,
+          "lat": 36.278979,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -82.523879,
+          "lat": 35.485721,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -84.094839,
+          "lat": 32.559533,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.175653,
+          "lat": 31.602303,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -82.46422,
+          "lat": 31.539622,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.729689,
+          "lat": 30.119157,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -82.834147,
+          "lat": 30.233224,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -87.646162,
+          "lat": 30.407486,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -85.570758,
+          "lat": 31.071552,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -84.828114,
+          "lat": 33.396467,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -82.98188,
+          "lat": 29.5988,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -86.94997,
+          "lat": 33.37924,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -83.23674,
+          "lat": 31.69665,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -86.17867,
+          "lat": 32.55445,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -82.46771,
+          "lat": 34.78428,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -85.09728,
+          "lat": 33.60512,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -85.078716,
+          "lat": 32.527567,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -87.7119,
+          "lat": 30.5538,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -84.80392,
+          "lat": 34.81138,
+          "state": "GA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3699,
+      "name": "Blair Park Services, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/blairpark-300x114.png",
+      "website": "http://www.blairpark.com/",
+      "careers": "https://blairpark.com/careers",
+      "description": "Blair Park Services, LLC (\"Blair Park\") provides turnkey services on network infrastructure, wireless networks, telephone systems, and application services for local, metropolitan, and wide area networks, offering consulting, design, configuration, construction and ongoing support. Blair Park specializes in developing and executing efficient and cost-effective data and telecommunications strategies for education, manufacturing, government, healthcare and communications service providers. Headquartered in Horsham, Pennsylvania, Blair Park has been updating and building infrastructures below ground, above ground, and within buildings along the East Coast since 1979. It can support voice and data needs for existing telecommunication infrastructure, as well as upgrade or assist with consultation, design and engineering, building and installation, project management, maintenance, and other support services. Blair Park's commitment to achieving the best solutions in communications technology has made it a leader in high-performance connectivity.",
+      "headquarters": {
+        "address": "405 Caredean Dr., Stes G & H",
+        "city": "Horsham",
+        "state": "PA",
+        "zip": "19044",
+        "phone": "(267) 388-2612",
+        "fax": "(267) 388-2612",
+        "lng": -75.172867,
+        "lat": 40.20312
+      },
+      "states": [
+        "PA"
+      ],
+      "locations": [
+        {
+          "lng": -75.172867,
+          "lat": 40.20312,
+          "state": "PA",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": 3701,
+      "name": "C-2 Utility Contractors, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/C2-Logo-300x232.png",
+      "website": "https://www.c-2utility.com/",
+      "careers": "https://www.c-2utility.com/careers/",
+      "description": "C-2 Utility Contractors, LLC (\"C-2\") is a specialized service contractor focused on underground and aerial placement of telephone, cable television and power facilities. For cable television operators, services include line coaxial and optical fiber cable placement, splicing and home installation. For telephone customers, C-2 performs and manages all of the underground, aerial and buried service wiring work under master agreements. Headquartered in Coburg, Oregon, C-2 was founded in 1977 and provides services in Oregon and Washington. C-2 is proud of its reputation as a service contractor with a commitment to quality and on-time completion. C-2's experienced management team is committed to providing the best possible service, and to meeting all of their customers' needs in today's fast paced and rapidly changing telecommunications industry.",
+      "headquarters": {
+        "address": "33005 Roberts Court",
+        "city": "Coburg",
+        "state": "OR",
+        "zip": "97408",
+        "phone": "(541) 741-2211",
+        "fax": "",
+        "lng": -123.056244,
+        "lat": 44.128152
+      },
+      "states": [
+        "OR"
+      ],
+      "locations": [
+        {
+          "lng": -123.056244,
+          "lat": 44.128152,
+          "state": "OR",
+          "primary": true
+        },
+        {
+          "lng": -123.056244,
+          "lat": 44.128152,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -123.02044,
+          "lat": 44.909155,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -122.542547,
+          "lat": 45.560666,
+          "state": "OR",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3705,
+      "name": "CableCom, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/CableCom-300x181.png",
+      "website": "http://www.cablecomllc.us/",
+      "careers": "https://cablecomllc.us/careers/",
+      "description": "CableCom, LLC (\"CableCom\") is a fully integrated turn-key provider of telecommunications services specializing in project management, systems engineering, design, make-ready, aerial construction, directional boring and hard surface excavation in both a residential and commercial environment. We combine a multi-skilled workforce with extensive experience maintaining coaxial and fiber infrastructure in the United States. CableCom is well positioned to provide a full range of new build, rebuild, upgrade and maintenance services as well as system testing and certification in advanced video, high-speed data and telephony to telecommunications customers. Headquartered in Woodinville, Washington, CableCom provides services in several regions in the United States and has, since its inception, played an integral role in providing support to telecommunications providers.",
+      "headquarters": {
+        "address": "1429 Avenue D, #339",
+        "city": "Snohomish",
+        "state": "WA",
+        "zip": "98290",
+        "phone": "(360) 668-1300",
+        "fax": "(360) 668-1400",
+        "lng": -122.099039,
+        "lat": 47.929185
+      },
+      "states": [
+        "CA",
+        "NM",
+        "NV",
+        "OR",
+        "WA"
+      ],
+      "locations": [
+        {
+          "lng": -122.099039,
+          "lat": 47.929185,
+          "state": "WA",
+          "primary": true
+        },
+        {
+          "lng": -122.404341,
+          "lat": 37.645952,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -106.59376,
+          "lat": 35.177878,
+          "state": "NM",
+          "primary": false
+        },
+        {
+          "lng": -122.859381,
+          "lat": 42.429759,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -124.224302,
+          "lat": 43.350693,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -120.750858,
+          "lat": 38.731927,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -122.362047,
+          "lat": 47.223587,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.530631,
+          "lat": 48.78517,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.529753,
+          "lat": 48.785076,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -106.803,
+          "lat": 32.3055,
+          "state": "NM",
+          "primary": false
+        },
+        {
+          "lng": -119.590229,
+          "lat": 39.247281,
+          "state": "NV",
+          "primary": false
+        },
+        {
+          "lng": -121.392363,
+          "lat": 38.671692,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -119.694186,
+          "lat": 36.781655,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -106.593028,
+          "lat": 35.179413,
+          "state": "NM",
+          "primary": false
+        },
+        {
+          "lng": -122.142449,
+          "lat": 38.019721,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.946793,
+          "lat": 37.384459,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -122.102616,
+          "lat": 47.928883,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -117.837644,
+          "lat": 33.860982,
+          "state": "CA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3735,
+      "name": "Communications Construction Group, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Communications-Construction-Group_Logo-296x300.png",
+      "website": "http://www.ccgcatv.com/",
+      "careers": "https://ccgcatv.com/careers/",
+      "description": "Communications Construction Group, LLC (\"CCG\") provides high quality, reliable, technologically advanced and cost effective cable services to the telecommunications industry. These services include design and placement of aerial coaxial and optical fiber cable systems, maintenance for existing cable TV systems, underground construction, installation and splicing of optical fiber cables and other services to meet customer needs. Based in West Chester, Pennsylvania, CCG was organized in 1980 and serves customers in the Eastern and Southern United States. CCG is committed to providing high quality construction services backed by well-qualified engineering and field support staffs.",
+      "headquarters": {
+        "address": "111 Greenmont Road",
+        "city": "Rising Sun",
+        "state": "MD",
+        "zip": "21911",
+        "phone": "(610) 696-1800",
+        "fax": "(610) 696-9030",
+        "lng": -76.034625,
+        "lat": 39.718198
+      },
+      "states": [
+        "MA",
+        "MD",
+        "NJ",
+        "NY",
+        "PA"
+      ],
+      "locations": [
+        {
+          "lng": -76.034625,
+          "lat": 39.718198,
+          "state": "MD",
+          "primary": true
+        },
+        {
+          "lng": -71.59975,
+          "lat": 42.401483,
+          "state": "MA",
+          "primary": false
+        },
+        {
+          "lng": -79.907321,
+          "lat": 40.618964,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -73.25538,
+          "lat": 40.724252,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -76.722774,
+          "lat": 39.182056,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -77.741193,
+          "lat": 39.62952,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -78.431601,
+          "lat": 40.371913,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -74.275636,
+          "lat": 40.595277,
+          "state": "NJ",
+          "primary": false
+        },
+        {
+          "lng": -76.879702,
+          "lat": 40.29741,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -75.593552,
+          "lat": 39.988535,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -74.963468,
+          "lat": 39.925119,
+          "state": "NJ",
+          "primary": false
+        },
+        {
+          "lng": -76.72829,
+          "lat": 39.197488,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -72.728055,
+          "lat": 42.173328,
+          "state": "MA",
+          "primary": false
+        },
+        {
+          "lng": -71.009946,
+          "lat": 41.763729,
+          "state": "MA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3751,
+      "name": "Engineering Associates, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/engineeringassociates-300x63.png",
+      "website": "http://www.engineeringassociates.com/",
+      "careers": "https://engineeringassociates.com/careers/",
+      "description": "Engineering Associates, LLC (\"EA\") is a specialized consulting-engineering firm that provides state-of-the-art engineering and design services for telecom carriers, cable/broadband service providers, municipalities, educational institutions and large private enterprises. EA's services include professional engineering, strategic consulting and analysis, and voice, data, video and wireless communications network design, as well as implementation services. Located in Alpharetta, Georgia, EA has been advancing technically since it was formed in 1954. EA has the capability to design and build many of the latest systems, including fiber access networks. EA also designs traditional digital switching, high-speed Internet networks, and digital wireless networks. Its versatility and experience has allowed EA to maximize its customer's ability to compete in today's busy communications service landscape.",
+      "headquarters": {
+        "address": "5905 Breckenridge Parkway Ste F",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33610",
+        "phone": "678-455-7266",
+        "fax": "",
+        "lng": -82.35803,
+        "lat": 28.001548
+      },
+      "states": [
+        "CO",
+        "FL",
+        "GA",
+        "HI"
+      ],
+      "locations": [
+        {
+          "lng": -82.35803,
+          "lat": 28.001548,
+          "state": "FL",
+          "primary": true
+        },
+        {
+          "lng": -84.206404,
+          "lat": 34.103077,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -104.90109,
+          "lat": 39.594378,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -157.913892,
+          "lat": 21.333874,
+          "state": "HI",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3757,
+      "name": "Ervin Cable Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Ervin-Cable-Construction_logo.png",
+      "website": "http://www.ervincable.com/",
+      "careers": "https://ervincable.com/careers/",
+      "description": "Ervin Cable Construction, LLC (\"Ervin\") provides a wide range of services to telecommunications providers and power companies, including systems engineering and design, make-ready, aerial and underground optical fiber cable construction, maintenance, optical fiber cable splicing and testing and emergency restoration. Headquartered in Sturgis, Kentucky, Ervin provides services to customers throughout the Southeastern and Midwestern United States. Founded in 1980, Ervin has maintained a commitment to quality and customer satisfaction that has formed the character of the company.",
+      "headquarters": {
+        "address": "450 Pryor Blvd.",
+        "city": "Sturgis",
+        "state": "KY",
+        "zip": "42459",
+        "phone": "(270) 333-3366",
+        "fax": "(714) 276-6175",
+        "lng": -87.960358,
+        "lat": 37.540653
+      },
+      "states": [
+        "AL",
+        "AR",
+        "AZ",
+        "CO",
+        "GA",
+        "ID",
+        "IL",
+        "IN",
+        "KY",
+        "LA",
+        "MO",
+        "MS",
+        "NE",
+        "NV",
+        "OK",
+        "TN",
+        "TX",
+        "UT"
+      ],
+      "locations": [
+        {
+          "lng": -87.960358,
+          "lat": 37.540653,
+          "state": "KY",
+          "primary": true
+        },
+        {
+          "lng": -87.960612,
+          "lat": 37.540428,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.960612,
+          "lat": 37.540428,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -90.455478,
+          "lat": 31.22992,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -88.014954,
+          "lat": 37.340046,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -90.089298,
+          "lat": 38.861071,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -87.799654,
+          "lat": 37.657618,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -86.663782,
+          "lat": 35.801573,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -86.252657,
+          "lat": 39.834699,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -89.062393,
+          "lat": 37.916139,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -86.034151,
+          "lat": 41.694514,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -89.168236,
+          "lat": 30.874279,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -111.74521,
+          "lat": 40.331736,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -93.063547,
+          "lat": 34.119859,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -84.72049,
+          "lat": 33.763154,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -89.366342,
+          "lat": 30.380482,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -90.44353,
+          "lat": 37.759225,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -88.448735,
+          "lat": 33.75208,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -87.792107,
+          "lat": 32.989993,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -114.994981,
+          "lat": 36.069551,
+          "state": "NV",
+          "primary": false
+        },
+        {
+          "lng": -111.859223,
+          "lat": 41.737322,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -88.599238,
+          "lat": 30.762908,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -88.398403,
+          "lat": 35.249857,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -87.8718,
+          "lat": 37.511481,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.550697,
+          "lat": 33.162643,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -87.959429,
+          "lat": 37.547371,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -88.588262,
+          "lat": 35.16646,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -88.236878,
+          "lat": 35.219601,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -112.456293,
+          "lat": 42.903256,
+          "state": "ID",
+          "primary": false
+        },
+        {
+          "lng": -112.000206,
+          "lat": 33.413522,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -86.016446,
+          "lat": 38.501461,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -116.031012,
+          "lat": 36.208343,
+          "state": "NV",
+          "primary": false
+        },
+        {
+          "lng": -96.145935,
+          "lat": 41.221061,
+          "state": "NE",
+          "primary": false
+        },
+        {
+          "lng": -95.932243,
+          "lat": 41.280907,
+          "state": "NE",
+          "primary": false
+        },
+        {
+          "lng": -95.946506,
+          "lat": 41.259473,
+          "state": "NE",
+          "primary": false
+        },
+        {
+          "lng": -93.851272,
+          "lat": 33.938057,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -86.906449,
+          "lat": 40.002054,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -87.070797,
+          "lat": 35.631892,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -84.934818,
+          "lat": 35.133313,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -85.196883,
+          "lat": 35.067991,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -89.55588,
+          "lat": 37.302976,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -89.553655,
+          "lat": 37.307648,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -114.562912,
+          "lat": 35.112381,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -86.774189,
+          "lat": 36.041607,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -87.082561,
+          "lat": 37.746076,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.082561,
+          "lat": 37.746076,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -104.990277,
+          "lat": 39.63132,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -92.019009,
+          "lat": 32.496865,
+          "state": "LA",
+          "primary": false
+        },
+        {
+          "lng": -94.077761,
+          "lat": 33.415728,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -86.757895,
+          "lat": 36.145468,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -94.580075,
+          "lat": 35.405062,
+          "state": "OK",
+          "primary": false
+        },
+        {
+          "lng": -89.449714,
+          "lat": 30.382011,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -93.776766,
+          "lat": 38.371029,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -93.995845,
+          "lat": 38.430257,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -87.588758,
+          "lat": 37.840008,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -83.774931,
+          "lat": 32.096983,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.967738,
+          "lat": 33.284578,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.152974,
+          "lat": 33.035954,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -114.570156,
+          "lat": 35.112349,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -114.570156,
+          "lat": 35.112349,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -114.562923,
+          "lat": 35.113419,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -94.296613,
+          "lat": 35.458387,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -111.745722,
+          "lat": 40.331749,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -83.486935,
+          "lat": 36.116666,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -86.757822,
+          "lat": 36.146277,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -97.061083,
+          "lat": 35.986795,
+          "state": "OK",
+          "primary": false
+        },
+        {
+          "lng": -90.119889,
+          "lat": 33.510883,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -89.449714,
+          "lat": 30.382011,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -94.567889,
+          "lat": 39.102152,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -94.569253,
+          "lat": 39.102654,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -92.265266,
+          "lat": 39.021109,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -87.916691,
+          "lat": 37.683378,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -86.414237,
+          "lat": 37.006711,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.961315,
+          "lat": 37.542126,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.843369,
+          "lat": 37.575516,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -90.654512,
+          "lat": 39.197307,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -90.105612,
+          "lat": 38.861082,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -85.36241,
+          "lat": 40.829397,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -89.636495,
+          "lat": 39.73265,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -90.105805,
+          "lat": 38.859932,
+          "state": "IL",
+          "primary": false
+        },
+        {
+          "lng": -86.903073,
+          "lat": 33.340547,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -94.282404,
+          "lat": 36.006544,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -86.382484,
+          "lat": 32.387156,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -86.956046,
+          "lat": 34.722182,
+          "state": "AL",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3827,
+      "name": "Fiber Technologies Solutions, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Fiber-Technologies-300x175.png",
+      "website": "https://fibertechnologiessolutions.com/",
+      "careers": "https://fibertechnologiessolutions.com/careers/",
+      "description": "Fiber Technologies Solutions, LLC (\"Fiber Tech\") provides a wide range of services to both telecommunications and cable providers. These services include engineering and design, placement of aerial and underground optical fiber cable and coaxial construction, optical fiber cable splicing and testing, maintenance, installation and emergency restoration. Headquartered in Loganville, Georgia, Fiber Tech has been providing telecommunication services throughout the country for over 35 years. Our experienced and dedicated workforce is committed to providing only the best services to our customers in a safe and timely manner.",
+      "headquarters": {
+        "address": "2675 Mall of Georgia Blvd, Suite 301",
+        "city": "Buford",
+        "state": "GA",
+        "zip": "30519",
+        "phone": "(770) 554-2220",
+        "fax": "(770) 466-0493",
+        "lng": -83.974282,
+        "lat": 34.064334
+      },
+      "states": [
+        "FL",
+        "GA",
+        "NC",
+        "VA"
+      ],
+      "locations": [
+        {
+          "lng": -83.974282,
+          "lat": 34.064334,
+          "state": "GA",
+          "primary": true
+        },
+        {
+          "lng": -77.490328,
+          "lat": 37.588505,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -79.157623,
+          "lat": 37.392088,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -81.840836,
+          "lat": 28.508843,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -79.157623,
+          "lat": 37.392088,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -80.853815,
+          "lat": 35.769248,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -77.462623,
+          "lat": 38.275541,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -81.490429,
+          "lat": 30.069251,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -77.490328,
+          "lat": 37.588505,
+          "state": "VA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3846,
+      "name": "Globe Communications, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/cropped-Globe-300x108.png",
+      "website": "http://www.globeinc.com/",
+      "careers": "https://globeinc.com/careers/",
+      "description": "Globe Communications, LLC (\"Globe\") is a specialized utility contractor providing a variety of services to the cable television, power and telecommunications industry as well as government agencies, private corporations and higher education. These services include engineering, design, installation, and maintenance for all phases of inside and outside voice, video and data networks. Founded in 1964, Globe is headquartered in Myrtle Beach, South Carolina. Globe provides services in the Southeastern United States through its many field offices. Globe's experienced management team is committed to offering the highest level of assurance and satisfaction to its customers.",
+      "headquarters": {
+        "address": "950 48th Avenue North, Suite 100",
+        "city": "Myrtle Beach",
+        "state": "SC",
+        "zip": "29577",
+        "phone": "(843) 839-5544",
+        "fax": "",
+        "lng": -78.856034,
+        "lat": 33.730403
+      },
+      "states": [
+        "GA",
+        "NC",
+        "SC"
+      ],
+      "locations": [
+        {
+          "lng": -78.856034,
+          "lat": 33.730403,
+          "state": "SC",
+          "primary": true
+        },
+        {
+          "lng": -81.013752,
+          "lat": 32.530471,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -82.129547,
+          "lat": 34.220829,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -83.847122,
+          "lat": 34.933145,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.28691,
+          "lat": 34.567227,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -80.526775,
+          "lat": 35.00676,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -78.69168,
+          "lat": 33.890064,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -80.31783,
+          "lat": 35.750694,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -80.37709,
+          "lat": 35.737319,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -81.275498,
+          "lat": 33.901494,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -85.2819,
+          "lat": 34.704802,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -79.822758,
+          "lat": 33.68173,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -84.43552,
+          "lat": 34.473216,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -78.972719,
+          "lat": 36.031926,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -83.550386,
+          "lat": 34.242069,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -82.089641,
+          "lat": 35.245048,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -83.761586,
+          "lat": 34.569108,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -84.768227,
+          "lat": 34.751067,
+          "state": "GA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3865,
+      "name": "Golden State Utility Co.",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/gsu-logo-300x56.png",
+      "website": "http://www.gsuc.net/",
+      "careers": "https://northskycomm.com/careers/",
+      "description": "Golden State Utility Co. (\"Golden State\") is a full service telecommunications contractor providing a wide range of services including all aspects of aerial/underground construction and fiber splicing. With 3 locations in California, Golden State has been able to provide its customers with a superior level of service through its specialized, motivated, safe crews and management since its founding in 1981. We take care of our employees, so in return they will take care of you, our customer.",
+      "headquarters": {
+        "address": "16701 SE McGillivray Blvd., Suite 200",
+        "city": "Vancouver",
+        "state": "WA",
+        "zip": "98683",
+        "phone": "(360) 254-6920",
+        "fax": "",
+        "lng": -122.501087,
+        "lat": 45.603995
+      },
+      "states": [
+        "CA",
+        "WA"
+      ],
+      "locations": [
+        {
+          "lng": -122.501087,
+          "lat": 45.603995,
+          "state": "WA",
+          "primary": true
+        },
+        {
+          "lng": -121.553145,
+          "lat": 36.990585,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.226586,
+          "lat": 37.862451,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.39678,
+          "lat": 38.524534,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -120.566736,
+          "lat": 37.36282,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.385586,
+          "lat": 38.52118,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.384756,
+          "lat": 38.518689,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -119.599841,
+          "lat": 36.547551,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -122.016815,
+          "lat": 37.540836,
+          "state": "CA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3876,
+      "name": "Ivy H. Smith Company, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/IVY-Logo_Color-300x172.png",
+      "website": "http://www.ivysmith.com/",
+      "careers": "https://ivysmith.com/careers/",
+      "description": "Ivy H. Smith Company, LLC (\"Ivy\") is a specialized construction contractor providing all types of electrical services as well as telephone distribution construction for both public and private utilities. Ivy has served joint trench projects involving power distribution, cable TV, telecommunications and broadband facilities and has performed duct bank and manhole construction for power and telecommunications customers. Ivy has provided services to the utility industry in the Southeastern United States since 1926 and also performs services for telecommunications carriers throughout the Mid-Atlantic United States. Headquartered in Norcross, Georgia, Ivy is positioned to provide a wide range of services to a broad base of customers. The experienced management, highly trained personnel and equipment resources are readily available to undertake any size project.",
+      "headquarters": {
+        "address": "200 North Point Center East, Suite 400",
+        "city": "Alpharetta",
+        "state": "GA",
+        "zip": "30022",
+        "phone": "(404) 508-5703",
+        "fax": "",
+        "lng": -84.299293,
+        "lat": 34.046322
+      },
+      "states": [
+        "FL",
+        "GA"
+      ],
+      "locations": [
+        {
+          "lng": -84.299293,
+          "lat": 34.046322,
+          "state": "GA",
+          "primary": true
+        },
+        {
+          "lng": -81.790174,
+          "lat": 26.544387,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -81.606285,
+          "lat": 28.727483,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -82.193306,
+          "lat": 29.185425,
+          "state": "FL",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 7712,
+      "name": "Jansen Cable Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2024/02/Jansen-Logo_Color-300x105.png",
+      "website": "https://www.jansencable.com/",
+      "careers": "https://jansencable.com/careers/",
+      "description": "Jansen Cable Construction, LLC (JCC) was founded in 1990 and is headquartered in Effingham, Illinois. Jansen Cable started as five men with shovels and a trencher has quickly grown into a full service construction company providing communication companies solutions focused on outside plant facility design and deployment.",
+      "headquarters": {
+        "address": "16766 North US Hwy 45",
+        "city": "Effingham",
+        "state": "IL",
+        "zip": "62401",
+        "phone": "(217) 347-4141",
+        "fax": "",
+        "lng": -88.52624,
+        "lat": 39.159797
+      },
+      "states": [
+        "IL"
+      ],
+      "locations": [
+        {
+          "lng": -88.52624,
+          "lat": 39.159797,
+          "state": "IL",
+          "primary": true
+        },
+        {
+          "lng": -88.52624,
+          "lat": 39.159797,
+          "state": "IL",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3882,
+      "name": "Kanaan Communications, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/kc-logo-300x231.png",
+      "website": "http://www.kanaancomm.com/",
+      "careers": "https://www.kanaancomm.com/careers",
+      "description": "Kanaan Communications, LLC (\"Kanaan\") provides a wide range of services to the telecommunications industry from outside plant (OSP) engineering, construction, maintenance, network upgrades, splicing, activation, certification, new build standby power systems installation, and on-going power supply maintenance programs. In addition to outside plant operations, Kanaan is a leading cable fulfillment service company providing services to the nation's\u2019 largest cable telecommunications companies with services including digital cable, high-speed data, digital phone, and home security systems. With headquarters in Canton Michigan, Kanaan has capabilities to provide services on a national and regional scale. Kanaan\u2019s senior management has extensive experience in delivering on time, high quality service and is committed to its customers\u2019 projects from inception through the final sign-off, while maintaining a balance in business, between production, quality and safety.",
+      "headquarters": {
+        "address": "40483 Koppernick Road. Suite 10",
+        "city": "Canton",
+        "state": "MI",
+        "zip": "48187",
+        "phone": "(614) 823-6464",
+        "fax": "",
+        "lng": -83.440136,
+        "lat": 42.340476
+      },
+      "states": [
+        "IN",
+        "MD",
+        "MI",
+        "NY",
+        "OH",
+        "PA",
+        "WV"
+      ],
+      "locations": [
+        {
+          "lng": -83.440136,
+          "lat": 42.340476,
+          "state": "MI",
+          "primary": true
+        },
+        {
+          "lng": -76.032981,
+          "lat": 39.72079,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -80.967707,
+          "lat": 41.198916,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -75.964266,
+          "lat": 42.118606,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -80.11569,
+          "lat": 40.672715,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -84.190179,
+          "lat": 42.25381,
+          "state": "MI",
+          "primary": false
+        },
+        {
+          "lng": -86.348679,
+          "lat": 43.410011,
+          "state": "MI",
+          "primary": false
+        },
+        {
+          "lng": -86.055588,
+          "lat": 39.810425,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -77.453301,
+          "lat": 43.001382,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -82.838926,
+          "lat": 40.114533,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -84.203311,
+          "lat": 43.605733,
+          "state": "MI",
+          "primary": false
+        },
+        {
+          "lng": -79.882773,
+          "lat": 39.619871,
+          "state": "WV",
+          "primary": false
+        },
+        {
+          "lng": -80.077203,
+          "lat": 40.410692,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -85.705544,
+          "lat": 42.938043,
+          "state": "MI",
+          "primary": false
+        },
+        {
+          "lng": -83.415238,
+          "lat": 42.316987,
+          "state": "MI",
+          "primary": false
+        },
+        {
+          "lng": -81.462473,
+          "lat": 41.297269,
+          "state": "OH",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 8676,
+      "name": "Lambert's Cable Splicing Company, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/lamberts-logo-n.png",
+      "website": "http://www.lambertcable.com/",
+      "careers": "https://www.lambertcable.com/careers/",
+      "description": "Lambert's Cable Splicing Company, LLC (\"Lambert's\") is a utility contractor specializing in the installation and maintenance of local and long distance telecommunications lines as well as building installations and joint trench construction. Lambert's handles virtually any type of installation and maintenance project, including optical fiber cables. Lambert's also installs outside plant wiring for commercial and educational facilities. The company began operations in 1967 and is headquartered is in Rocky Mount, North Carolina. Lambert's has developed an excellent reputation as a reliable provider of high quality construction services for the utility industry throughout the Southeastern, Mid-Atlantic, and Northeastern United States. Lambert's is committed to developing strong, long-lasting relationships with its customers while providing quality service in a safe work environment.",
+      "headquarters": {
+        "address": "2521 South Wesleyan Boulevard",
+        "city": "Rocky Mount",
+        "state": "NC",
+        "zip": "27803",
+        "phone": "(252) 442-9777",
+        "fax": "(252) 442-9146",
+        "lng": -77.821314,
+        "lat": 35.890128
+      },
+      "states": [
+        "FL",
+        "GA",
+        "MD",
+        "NC",
+        "NJ",
+        "PA",
+        "VA",
+        "WV"
+      ],
+      "locations": [
+        {
+          "lng": -77.821314,
+          "lat": 35.890128,
+          "state": "NC",
+          "primary": true
+        },
+        {
+          "lng": -78.855672,
+          "lat": 37.362843,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -77.826479,
+          "lat": 35.891126,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -80.810008,
+          "lat": 35.265321,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -80.848985,
+          "lat": 35.828519,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -78.810699,
+          "lat": 39.334279,
+          "state": "WV",
+          "primary": false
+        },
+        {
+          "lng": -82.509113,
+          "lat": 36.935679,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -78.865271,
+          "lat": 38.474396,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -80.363386,
+          "lat": 37.142527,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -81.836507,
+          "lat": 26.497303,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -81.373546,
+          "lat": 27.435217,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -80.337282,
+          "lat": 41.984434,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -78.754071,
+          "lat": 39.631148,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -78.41959,
+          "lat": 40.428596,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -80.227666,
+          "lat": 40.440395,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -80.179025,
+          "lat": 40.399798,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -76.458568,
+          "lat": 40.340858,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -81.834581,
+          "lat": 26.496621,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -81.794752,
+          "lat": 28.058925,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -74.74468,
+          "lat": 41.069859,
+          "state": "NJ",
+          "primary": false
+        },
+        {
+          "lng": -77.636587,
+          "lat": 38.665173,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -83.991828,
+          "lat": 33.986004,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -78.627804,
+          "lat": 35.315368,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -82.6977,
+          "lat": 27.891747,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -82.160658,
+          "lat": 27.994274,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -84.353671,
+          "lat": 30.471754,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -77.771152,
+          "lat": 40.128889,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -81.37393,
+          "lat": 27.435277,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -82.446108,
+          "lat": 27.321379,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -77.822523,
+          "lat": 35.893362,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -82.16179,
+          "lat": 27.995303,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -81.429529,
+          "lat": 28.619369,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -81.890468,
+          "lat": 28.747686,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -77.399053,
+          "lat": 37.618233,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -79.8908,
+          "lat": 36.704751,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -77.54067,
+          "lat": 35.229211,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -76.784482,
+          "lat": 38.534802,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -78.394338,
+          "lat": 36.334474,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -78.19594,
+          "lat": 38.140462,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -76.735186,
+          "lat": 39.193847,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -76.295857,
+          "lat": 36.270727,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -78.582673,
+          "lat": 35.27076,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -76.382398,
+          "lat": 36.773967,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -79.933808,
+          "lat": 40.989124,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -79.815798,
+          "lat": 35.656478,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -75.16226,
+          "lat": 40.659251,
+          "state": "NJ",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3949,
+      "name": "Locating, Inc",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Locating-Inc.--300x107.png",
+      "website": "http://www.locatinginc.com/",
+      "careers": "https://locatinginc.com/careers/",
+      "description": "Locating, Inc. (\"Locating\") identifies and marks underground facilities for major utilities and others. Most of the company's services are under long-term contract for companies that own telephone, power, gas, cable TV, water and sewer facilities. Locating was founded in 1984 to meet the needs of utilities outsourcing their activities. The company is headquartered in Atlanta, Georgia. Locating has experienced steady growth over the years based on an excellent reputation for providing quality service throughout the Northwestern United States while maintaining the efficiencies customers demand. Locating assures the accuracy of its locates in accordance with applicable state law, including meeting the mandated time for responding to locate requests. Protection of customers' underground facilities is the company's number one priority, and Locating employees strive for 100% customer satisfaction.",
+      "headquarters": {
+        "address": "2575 Westside Parkway, Suite 100",
+        "city": "Alpharetta",
+        "state": "GA",
+        "zip": "30004",
+        "phone": "(678) 461-3900",
+        "fax": "(678) 461-3902",
+        "lng": -84.272444,
+        "lat": 34.08394
+      },
+      "states": [
+        "GA",
+        "OR",
+        "WA"
+      ],
+      "locations": [
+        {
+          "lng": -84.272444,
+          "lat": 34.08394,
+          "state": "GA",
+          "primary": true
+        },
+        {
+          "lng": -123.01937,
+          "lat": 44.915173,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -122.551119,
+          "lat": 45.690941,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.872561,
+          "lat": 42.358576,
+          "state": "OR",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3954,
+      "name": "NeoCom Solutions, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/NEOcom-300x62.png",
+      "website": "http://www.neocom.biz/",
+      "careers": "https://neocom.biz/careers/",
+      "description": "NeoCom Solutions, LLC (\"NeoCom\") provides services to construct, install, optimize and maintain wireless communication tower facilities. NeoCom offers a full complement of turnkey services, including rollout planning, site identification, tower construction, equipment / antenna installation and maintenance. Founded in 2000, NeoCom is headquartered in Woodstock, GA and provides service throughout the southeastern United States. Since inception, NeoCom has provided fast and efficient services, utilizing in-house capabilities & local resources, to provide the highest quality solution within budget.",
+      "headquarters": {
+        "address": "1220 Old Alpharetta Road, Suite 380",
+        "city": "Alpharetta",
+        "state": "GA",
+        "zip": "30005",
+        "phone": "(678) 238-1818",
+        "fax": "(678) 238-1820",
+        "lng": -84.206404,
+        "lat": 34.103077
+      },
+      "states": [
+        "GA"
+      ],
+      "locations": [
+        {
+          "lng": -84.206404,
+          "lat": 34.103077,
+          "state": "GA",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "id": 3956,
+      "name": "Niels Fugal Sons Company, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/05/Niels-Fugal-Sons-Company-website-300x86.png",
+      "website": "http://www.fugal.com/",
+      "careers": "https://fugal.com/careers/",
+      "description": "Niels Fugal Sons Company, LLC (\"Niels Fugal\") is a specialty contractor serving the telecommunications and natural gas construction industries. The company offers a full range of telecommunications construction services, including cable & conduit plowing, boring & trenching, aerial & underground construction along with cable & fiber pulling and blowing. Niels Fugal also offers a full service fiber & copper splicing and testing division with over ten years' experience. Niels Fugal is also a qualified contractor for natural gas high-pressure pipeline and local distribution systems. These services entail pipeline construction, relocation and replacement, river and aerial crossings, pipeline rehabilitation, facilities construction, gas gathering, hydrostatic testing and turn-key pipeline services. Headquartered in Pleasant Grove, Utah, Niels Fugal was founded in 1924 and serves the Western United States. Niels Fugal provides experienced personnel in the construction industry and has long been recognized for its quality and workmanship.",
+      "headquarters": {
+        "address": "1005 S. Main",
+        "city": "Pleasant Grove",
+        "state": "UT",
+        "zip": "84062",
+        "phone": "(801) 785-3152",
+        "fax": "(801) 785-5844",
+        "lng": -111.740068,
+        "lat": 40.351843
+      },
+      "states": [
+        "AZ",
+        "MT",
+        "UT"
+      ],
+      "locations": [
+        {
+          "lng": -111.740068,
+          "lat": 40.351843,
+          "state": "UT",
+          "primary": true
+        },
+        {
+          "lng": -109.430563,
+          "lat": 46.657475,
+          "state": "MT",
+          "primary": false
+        },
+        {
+          "lng": -113.113602,
+          "lat": 37.68889,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -111.965369,
+          "lat": 33.288232,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -111.971043,
+          "lat": 33.307719,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -113.519965,
+          "lat": 37.116111,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -113.508287,
+          "lat": 37.130537,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -111.932399,
+          "lat": 40.604075,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -111.97713,
+          "lat": 41.229477,
+          "state": "UT",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3965,
+      "name": "North Sky Communications, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/ns-logo-300x62.png",
+      "website": "http://www.northskycomm.com/",
+      "careers": "https://northskycomm.com/careers/",
+      "description": "North Sky Communications, LLC (\"North Sky\") is a full service telecommunications contractor providing a wide range of services including all aspects of aerial/underground construction, fiber splicing, structured wiring, MDU and SFU installations. North Sky also serves the wireless industry through its microwave and tower services. Based out of Vancouver, Washington, North Sky operates throughout the NorthWest. Since it was founded in 1990, North Sky has been committed to providing its customers with a superior level of service through its specialized, motivated, safe crews and management. We take care of our employees, so in return they will take care of you, our customer.",
+      "headquarters": {
+        "address": "16701 SE McGillivray Blvd., Suite 200",
+        "city": "Vancouver",
+        "state": "WA",
+        "zip": "98683",
+        "phone": "(360) 254-6920",
+        "fax": "",
+        "lng": -122.501087,
+        "lat": 45.603995
+      },
+      "states": [
+        "CA",
+        "ID",
+        "OR",
+        "TX",
+        "WA"
+      ],
+      "locations": [
+        {
+          "lng": -122.501087,
+          "lat": 45.603995,
+          "state": "WA",
+          "primary": true
+        },
+        {
+          "lng": -122.582957,
+          "lat": 45.141394,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -98.480341,
+          "lat": 29.373433,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -122.789692,
+          "lat": 45.379342,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -122.769859,
+          "lat": 45.309622,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -122.816444,
+          "lat": 44.813665,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -122.501087,
+          "lat": 45.603995,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -119.528749,
+          "lat": 47.31327,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.401632,
+          "lat": 47.16835,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.77627,
+          "lat": 47.073623,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -117.18883,
+          "lat": 47.696717,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.673408,
+          "lat": 47.551472,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.223743,
+          "lat": 47.400002,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -117.735754,
+          "lat": 40.972833,
+          "state": "ID",
+          "primary": false
+        },
+        {
+          "lng": -122.787876,
+          "lat": 45.331501,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -121.553145,
+          "lat": 36.990585,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.226586,
+          "lat": 37.862451,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.39678,
+          "lat": 38.524534,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -120.566736,
+          "lat": 37.36282,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.385586,
+          "lat": 38.52118,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.384756,
+          "lat": 38.518689,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -119.599841,
+          "lat": 36.547551,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -121.379055,
+          "lat": 38.524847,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -122.016815,
+          "lat": 37.540836,
+          "state": "CA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 3994,
+      "name": "Parkside Utility Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/parkside-300x116.png",
+      "website": "http://www.parksideutil.com/",
+      "careers": "https://www.parksideutil.com/careers/",
+      "description": "Parkside Utility Construction, LLC (\"Parkside\") provides full service infrastructure construction, specializing in the design, installation and maintenance of underground telecommunication systems. Parkside also provides support services for telecommunication, wireless, cable, power, and energy facilities both locally and nationally. Headquartered in Harleysville, Pennsylvania, Parkside has been providing services throughout the Northeastern United States since 1982. Parkside's experienced and knowledgeable workforce is dedicated to providing reliable service and exceeding customer satisfaction.",
+      "headquarters": {
+        "address": "140 Clemens Road, Suite 200",
+        "city": "Harleysville",
+        "state": "PA",
+        "zip": "19438",
+        "phone": "(215) 513-9500",
+        "fax": "",
+        "lng": -75.360533,
+        "lat": 40.267517
+      },
+      "states": [
+        "CT",
+        "NY",
+        "PA",
+        "RI"
+      ],
+      "locations": [
+        {
+          "lng": -75.360533,
+          "lat": 40.267517,
+          "state": "PA",
+          "primary": true
+        },
+        {
+          "lng": -74.403892,
+          "lat": 41.441943,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -77.339711,
+          "lat": 42.963093,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -72.706082,
+          "lat": 41.610659,
+          "state": "CT",
+          "primary": false
+        },
+        {
+          "lng": -73.172556,
+          "lat": 41.180253,
+          "state": "CT",
+          "primary": false
+        },
+        {
+          "lng": -71.431188,
+          "lat": 41.733746,
+          "state": "RI",
+          "primary": false
+        },
+        {
+          "lng": -72.706391,
+          "lat": 41.610724,
+          "state": "CT",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4004,
+      "name": "Pauley Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Pauley-300x86.png",
+      "website": "http://www.pauleyc.com/",
+      "careers": "https://pauleyc.com/careers/",
+      "description": "Pauley Construction, LLC (\"Pauley\") provides regional contracting services throughout the Western United States, specializing in telecommunications construction services and the installation and maintenance of utility infrastructure. Pauley has a highly skilled, diversified workforce that allows the flexibility to choose the most cost-effective and least disruptive placement methods. Headquartered in Phoenix, Arizona, Pauley serves its customers located across many of the major Western markets. Founded in 1991, Pauley is dedicated to meeting and exceeding its customer needs by adopting new technologies and providing superior customer service. From deep-ditch excavation to hand-digs, Pauley will get the job done right.",
+      "headquarters": {
+        "address": "2021 West Melinda Lane",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85027",
+        "phone": "(800) 645-6047",
+        "fax": "",
+        "lng": -112.10222,
+        "lat": 33.680957
+      },
+      "states": [
+        "AZ",
+        "CO",
+        "ID",
+        "NE",
+        "WY"
+      ],
+      "locations": [
+        {
+          "lng": -112.10222,
+          "lat": 33.680957,
+          "state": "AZ",
+          "primary": true
+        },
+        {
+          "lng": -112.105613,
+          "lat": 33.687197,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -111.001665,
+          "lat": 32.247825,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -112.105613,
+          "lat": 33.687197,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -114.401247,
+          "lat": 43.900517,
+          "state": "ID",
+          "primary": false
+        },
+        {
+          "lng": -111.57352,
+          "lat": 33.369664,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -112.096042,
+          "lat": 33.457479,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -95.935452,
+          "lat": 41.252606,
+          "state": "NE",
+          "primary": false
+        },
+        {
+          "lng": -104.790092,
+          "lat": 41.10973,
+          "state": "WY",
+          "primary": false
+        },
+        {
+          "lng": -106.298082,
+          "lat": 42.848709,
+          "state": "WY",
+          "primary": false
+        },
+        {
+          "lng": -112.100499,
+          "lat": 33.696036,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -104.866167,
+          "lat": 39.892124,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -104.834994,
+          "lat": 39.590493,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -107.868346,
+          "lat": 37.203261,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -104.830778,
+          "lat": 39.588352,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -112.102362,
+          "lat": 33.686302,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -104.739424,
+          "lat": 38.846051,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -109.224816,
+          "lat": 41.595101,
+          "state": "WY",
+          "primary": false
+        },
+        {
+          "lng": -104.976736,
+          "lat": 40.206486,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -108.650523,
+          "lat": 39.117019,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -104.867079,
+          "lat": 39.892004,
+          "state": "CO",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 8924,
+      "name": "Power Solutions, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2025/12/PS-Logo_black.png",
+      "website": "https://powersolutions-llc.com/",
+      "careers": "https://powersolutions-llc.com/careers/",
+      "description": "Power Solutions, LLC (\u201cPower Solutions\u201d) is a leading regional electrical contracting and construction services firm focused on mission-critical environments across the Mid-Atlantic United States. It delivers comprehensive electrical systems for large-scale projects and specialized facilities with a high focus on data centers. Founded in 1998, Power Solutions built its expertise alongside early stage cloud and hyperscale developers in the Washington D.C., Maryland and Virginia region\u2014now the largest data center hub in the world. Today they work in partnership with the country\u2019s largest general contractors, building and maintaining electrical systems for data centers, hospitals, medical laboratories, telecommunications centers, government and military institutions and more. Headquartered in Bowie, Maryland, PowerSolutions is known for its deep technical expertise and commitment to safety, quality, reliability, and craftsmanship.",
+      "headquarters": {
+        "address": "17201 Melford Boulevard",
+        "city": "Bowie",
+        "state": "MD",
+        "zip": "20715",
+        "phone": "(301) 794-0330",
+        "fax": "(301) 794-0340",
+        "lng": -76.709259,
+        "lat": 38.957919
+      },
+      "states": [
+        "MD",
+        "VA"
+      ],
+      "locations": [
+        {
+          "lng": -76.709259,
+          "lat": 38.957919,
+          "state": "MD",
+          "primary": true
+        },
+        {
+          "lng": -77.448458,
+          "lat": 39.034134,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -76.464259,
+          "lat": 37.086455,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -77.423145,
+          "lat": 39.365413,
+          "state": "MD",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4022,
+      "name": "Precision Valley Communications of Vermont, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/04/PVC-300x231.png",
+      "website": "http://www.pvc2.com/",
+      "careers": "https://www.pvc2.com/careers/",
+      "description": "Precision Valley Communications of Vermont, LLC (\"PVC\") provides engineering, mapping and design services for cable, telephony, and utility customers. PVC's field services include mapping and design of strand and as-built, as well as make-ready engineering and pole audits. PVC excels in radio frequency (RF) and optical fiber system design, amplifier schematics and system fan-outs for broadband systems. PVC also constructs multi-dwelling unit (MDU) pathways. The company also provides service installers and maintenance technicians. Founded in 1988, and headquartered in Vermont, PVC has evolved into a nationwide engineering, mapping and design provider.",
+      "headquarters": {
+        "address": "36 Precision Drive, Suite 200",
+        "city": "North Springfield",
+        "state": "VT",
+        "zip": "5150",
+        "phone": "(800) 773-9317",
+        "fax": "(800) 885-9328",
+        "lng": -72.534462,
+        "lat": 43.327785
+      },
+      "states": [
+        "MA",
+        "VT"
+      ],
+      "locations": [
+        {
+          "lng": -72.534462,
+          "lat": 43.327785,
+          "state": "VT",
+          "primary": true
+        },
+        {
+          "lng": -71.308516,
+          "lat": 42.571466,
+          "state": "MA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4025,
+      "name": "Prince Telecom, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/PRINCE-LOGO-300x120.png",
+      "website": "http://www.princetelecom.com/",
+      "careers": "https://princetelecom.com/careers/",
+      "description": "Prince Telecom, LLC (\"Prince\") is a major fulfillment provider to the telecommunications industry. Prince offers a wide range of services to include residential and commercial installations, digital cable and digital video recorder/ converter deployment, digital and analog product installation, high speed modem and Voice over Internet Protocol (VOIP) installations, home security installations and troubleshooting, underground and aerial construction services, fiber to the home, and special projects such as grounding and audits. Headquartered in New Castle, Delaware, Prince was founded in 1986 and is able to deploy a well-equipped, professionally-trained and experienced workforce anywhere in the United States. Prince strives to exceed customer expectations by its commitment to deliver outstanding service. Prince connects the world today with tomorrow's technologies.",
+      "headquarters": {
+        "address": "551 A Mews Drive",
+        "city": "New Castle",
+        "state": "DE",
+        "zip": "19720",
+        "phone": "(302) 324-1800",
+        "fax": "(302) 613-0942",
+        "lng": -75.54905,
+        "lat": 39.67927
+      },
+      "states": [
+        "AZ",
+        "DE",
+        "IA",
+        "MA",
+        "MO",
+        "NC",
+        "NJ",
+        "NV",
+        "PA",
+        "UT",
+        "WA",
+        "WI"
+      ],
+      "locations": [
+        {
+          "lng": -75.54905,
+          "lat": 39.67927,
+          "state": "DE",
+          "primary": true
+        },
+        {
+          "lng": -87.786254,
+          "lat": 43.805585,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -122.277266,
+          "lat": 47.845338,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -74.23582,
+          "lat": 40.708077,
+          "state": "NJ",
+          "primary": false
+        },
+        {
+          "lng": -93.729799,
+          "lat": 41.560044,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -78.555423,
+          "lat": 35.677737,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -111.947103,
+          "lat": 33.339996,
+          "state": "AZ",
+          "primary": false
+        },
+        {
+          "lng": -74.03603,
+          "lat": 40.236355,
+          "state": "NJ",
+          "primary": false
+        },
+        {
+          "lng": -88.290277,
+          "lat": 44.288823,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -87.924249,
+          "lat": 42.956192,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -117.187036,
+          "lat": 47.696678,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -122.245656,
+          "lat": 47.23753,
+          "state": "WA",
+          "primary": false
+        },
+        {
+          "lng": -111.910792,
+          "lat": 40.482586,
+          "state": "UT",
+          "primary": false
+        },
+        {
+          "lng": -75.930622,
+          "lat": 40.401649,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -119.761496,
+          "lat": 39.514578,
+          "state": "NV",
+          "primary": false
+        },
+        {
+          "lng": -80.813999,
+          "lat": 35.266121,
+          "state": "NC",
+          "primary": false
+        },
+        {
+          "lng": -94.606476,
+          "lat": 39.185857,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -72.124263,
+          "lat": 42.115672,
+          "state": "MA",
+          "primary": false
+        },
+        {
+          "lng": -93.581815,
+          "lat": 41.632432,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -93.728356,
+          "lat": 41.560328,
+          "state": "IA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4047,
+      "name": "Professional Teleconcepts, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/pro-tel-logo-300x195.png",
+      "website": "http://www.pro-tel.com/",
+      "careers": "https://pro-tel.com/careers/",
+      "description": "Professional Teleconcepts, LLC (\"Pro-Tel\") specializes in all facets of wireline (ISP) engineering, procurement and construction services for voice, video, data and DC power in central office, MSC, MSO, cell site, data center and enterprise environments. In addition, Pro-Tel provides cutting edge services in the wireless industry in both cell site construction and maintenance and IDAS and ODAS site acquisition, engineering, procurement, construction and integration. Founded in 1984 and headquartered in Central New York, Pro-Tel is a TL9000 certified company with offices in Maine, Pennsylvania and North Carolina. Pro-Tel is an industry leader due to its core values of quality services, on time delivery and continual improvement as well as its focus on customer service.",
+      "headquarters": {
+        "address": "5132 State Highway 12",
+        "city": "Norwich",
+        "state": "NY",
+        "zip": "13815",
+        "phone": "(800) 443-6277",
+        "fax": "607-336-1187",
+        "lng": -75.540635,
+        "lat": 42.48174
+      },
+      "states": [
+        "NY",
+        "PA"
+      ],
+      "locations": [
+        {
+          "lng": -75.540635,
+          "lat": 42.48174,
+          "state": "NY",
+          "primary": true
+        },
+        {
+          "lng": -75.36262,
+          "lat": 40.270555,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -75.528344,
+          "lat": 42.567848,
+          "state": "NY",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4052,
+      "name": "RJE Telecom, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/RJE-Telecom-300x85.png",
+      "website": "http://www.rjetelecom.com/",
+      "careers": "https://www.rjetelecom.com/careers/",
+      "description": "RJE Telecom, LLC (\"RJE\") provides quality services for the telecommunications industry. Services include professionally managing and functionally servicing outside plant network facilities, central office, on premise and service center operations. RJE specializes in all facets of outside plant engineering and craft services including the most up-to-date optical fiber and electronic technologies. Further, RJE specializes in splicing and testing copper cable and all types of optical fiber cable structure. RJE central office services include certified technicians who operate, install and maintain all types of central office equipment. In addition to servicing cutting edge technologies, RJE also provides day-to-day customer provisioning and support for both the client and the client customer premises. Incorporated in 1984, RJE's headquarters are in Tampa, Florida. With offices strategically deployed across the nation, RJE can respond quickly to ever-changing client workloads. Utilizing its in-house recruiting division, RJE meets client demands for trained and qualified service personnel when and where they are needed. RJE brings to its customers strong, knowledgeable telecommunications management, employee safety and quality work performance.",
+      "headquarters": {
+        "address": "5905 Breckenridge Parkway, Suite F",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33610",
+        "phone": "(813) 623-1233",
+        "fax": "(813) 623-5613",
+        "lng": -82.35803,
+        "lat": 28.001548
+      },
+      "states": [
+        "FL",
+        "HI",
+        "MD",
+        "VA"
+      ],
+      "locations": [
+        {
+          "lng": -82.35803,
+          "lat": 28.001548,
+          "state": "FL",
+          "primary": true
+        },
+        {
+          "lng": -78.173577,
+          "lat": 39.166096,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -76.586296,
+          "lat": 39.135123,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -157.913892,
+          "lat": 21.333874,
+          "state": "HI",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4058,
+      "name": "Sage Telecommunications Corp. of Colorado, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/SAGE-LOGO-300x139.png",
+      "website": "http://www.sagecom.net/",
+      "careers": "https://www.sagecom.net/careers/",
+      "description": "Sage Telecommunications Corp. of Colorado, LLC (\"Sage\") provides a full range of telecommunications construction and project management services, including drafting, excavating, construction, drop installations, MDU services, and splicing. Sage's management team has experience within all disciplines necessary to ensure success for its customers. Headquartered in Denver, Colorado, Sage has been providing experienced contracting and construction services since 1992. Sage takes great pride in its reputation for excellence and is committed to exceeding client expectations through each phase of a project.",
+      "headquarters": {
+        "address": "6700 Race St.",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80229",
+        "phone": "(303) 227-0986",
+        "fax": "(303) 227-0991",
+        "lng": -104.963026,
+        "lat": 39.818219
+      },
+      "states": [
+        "CO",
+        "MT"
+      ],
+      "locations": [
+        {
+          "lng": -104.963026,
+          "lat": 39.818219,
+          "state": "CO",
+          "primary": true
+        },
+        {
+          "lng": -111.195237,
+          "lat": 45.67307,
+          "state": "MT",
+          "primary": false
+        },
+        {
+          "lng": -107.798886,
+          "lat": 39.529183,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -105.283457,
+          "lat": 40.016893,
+          "state": "CO",
+          "primary": false
+        },
+        {
+          "lng": -105.044994,
+          "lat": 40.587747,
+          "state": "CO",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4064,
+      "name": "Star Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Star-Construction-LLC.-.png",
+      "website": "https://star-llc.net/",
+      "careers": "https://star-llc.net/careers/",
+      "description": "Star Construction, LLC (\"Star\") provides specialty contracting services ranging from full service turn-key project management to specialized applications meeting telecommunications industry needs. Services include placing poles, anchors and guys, aerial strand and cable, direct buried pipe, trenching cable, conventional and directional boring , placing underground conduit systems, performing inside wiring and cabling, and testing and maintenance services. Headquartered in Knoxville, Tennessee, Star was incorporated in 1954 and serves telecommunications and other utility customers in the Southeastern United States. With Star's extensive management experience, it is well positioned to provide the quality service that customers expect, as well as expand to meet the needs of corporate, medical, educational and governmental communities as they discover the tremendous potential of optical fiber networks, broadband systems and other applications.",
+      "headquarters": {
+        "address": "6621 Asheville Highway",
+        "city": "Knoxville",
+        "state": "TN",
+        "zip": "37924",
+        "phone": "(865) 521-6795",
+        "fax": "(865) 524-6354",
+        "lng": -83.809219,
+        "lat": 36.018892
+      },
+      "states": [
+        "AL",
+        "GA",
+        "KY",
+        "MO",
+        "MS",
+        "OH",
+        "TN",
+        "VA"
+      ],
+      "locations": [
+        {
+          "lng": -83.809219,
+          "lat": 36.018892,
+          "state": "TN",
+          "primary": true
+        },
+        {
+          "lng": -83.597374,
+          "lat": 36.443661,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -84.459817,
+          "lat": 33.880097,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -90.859871,
+          "lat": 38.471958,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -87.636733,
+          "lat": 34.706123,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -86.280419,
+          "lat": 33.589293,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -86.394668,
+          "lat": 35.839598,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -86.449365,
+          "lat": 36.381865,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -83.779966,
+          "lat": 36.830748,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -90.108874,
+          "lat": 34.289462,
+          "state": "MS",
+          "primary": false
+        },
+        {
+          "lng": -87.011621,
+          "lat": 34.79154,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -88.519226,
+          "lat": 36.129742,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -94.008413,
+          "lat": 37.862138,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -87.496567,
+          "lat": 36.089446,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -93.306161,
+          "lat": 36.862598,
+          "state": "MO",
+          "primary": false
+        },
+        {
+          "lng": -85.213092,
+          "lat": 35.081854,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -84.5331,
+          "lat": 38.056188,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.335401,
+          "lat": 36.514161,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -86.302122,
+          "lat": 32.323439,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -86.489448,
+          "lat": 36.942964,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -88.631634,
+          "lat": 37.092422,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -87.061685,
+          "lat": 37.78649,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -85.917378,
+          "lat": 33.622151,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -85.755305,
+          "lat": 38.149258,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -82.702198,
+          "lat": 38.534009,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -86.197026,
+          "lat": 35.355283,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -87.203772,
+          "lat": 35.533112,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -80.786751,
+          "lat": 36.739448,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -82.272142,
+          "lat": 36.581996,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -86.768806,
+          "lat": 36.122864,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -87.448413,
+          "lat": 33.184676,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -85.428286,
+          "lat": 32.623565,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -82.948841,
+          "lat": 39.954705,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -84.155527,
+          "lat": 39.791737,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -86.440002,
+          "lat": 36.233097,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -88.556965,
+          "lat": 34.67015,
+          "state": "MS",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4100,
+      "name": "TCS Communications, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/tcs-logo-300x225.png",
+      "website": "http://www.tcscomm.com/",
+      "careers": "https://tcscomm.com/careers/",
+      "description": "TCS Communications, LLC (\"TCS\") specializes in telecommunications construction and project management to telecommunication providers, cable MSOs, power companies and municipalities, as well as others. Our services include a full range of fiber optic and coaxial cable construction and maintenance of underground and aerial infrastructure. TCS provides a highly qualified workforce that is committed to the success and the satisfaction of our customers. We are proud to be a part of bridging the digital divide and servicing the growing need for broadband connection and speed in all communities. Headquartered in Englewood, Colorado, TCS was established in 1978 and serves customers in the Southeastern, Central, and Western United States. With decades of experience constructing telecommunications systems, TCS has a highly qualified team of managers, field supervisors, foremen, technicians, specialty subcontractors, administrative, and corporate support staff.",
+      "headquarters": {
+        "address": "3171 Gulf Breeze Parkway",
+        "city": "Gulf Breeze",
+        "state": "FL",
+        "zip": "32563",
+        "phone": "(800) 441-0780",
+        "fax": "",
+        "lng": -87.091803,
+        "lat": 30.385827
+      },
+      "states": [
+        "FL",
+        "TX"
+      ],
+      "locations": [
+        {
+          "lng": -87.091803,
+          "lat": 30.385827,
+          "state": "FL",
+          "primary": true
+        },
+        {
+          "lng": -95.495964,
+          "lat": 33.145213,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -97.135909,
+          "lat": 32.81167,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -81.418611,
+          "lat": 28.581189,
+          "state": "FL",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4107,
+      "name": "TelCom Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/telcom-logo-h-300x49.png",
+      "website": "https://telcomconstruction.com/",
+      "careers": "https://telcomconstruction.com/careers/",
+      "description": "TelCom Construction, LLC (\"TelCom\") is a specialized contractor providing construction and maintenance services to telecommunications providers throughout the United States. TelCom prides itself in being self-performing and turn-key, offering a wide range of services, including underground, aerial and wireless construction, project management, installation, and splicing. TelCom is headquartered in Clearwater, Minnesota, with over a dozen offices and hundreds of professionals located throughout the Central and Southwestern United States. Since its establishment in 2000, TelCom has built an impressive client portfolio by developing and embracing a true partnership approach with its customers and creating unique solutions to meet the customer's individual project goals and objectives.",
+      "headquarters": {
+        "address": "2218 200th St. E",
+        "city": "Clearwater",
+        "state": "MN",
+        "zip": "55320",
+        "phone": "(320) 558-9485",
+        "fax": "(320) 558-9486",
+        "lng": -94.069436,
+        "lat": 45.413153
+      },
+      "states": [
+        "CT",
+        "IA",
+        "KS",
+        "MN",
+        "ND",
+        "NE",
+        "SD",
+        "WI"
+      ],
+      "locations": [
+        {
+          "lng": -94.069436,
+          "lat": 45.413153,
+          "state": "MN",
+          "primary": true
+        },
+        {
+          "lng": -88.958044,
+          "lat": 42.750141,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -91.559137,
+          "lat": 42.034677,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -72.706842,
+          "lat": 41.610878,
+          "state": "CT",
+          "primary": false
+        },
+        {
+          "lng": -88.958044,
+          "lat": 42.750141,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -96.751175,
+          "lat": 43.570403,
+          "state": "SD",
+          "primary": false
+        },
+        {
+          "lng": -93.298929,
+          "lat": 44.572635,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -90.081331,
+          "lat": 44.034748,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -93.663116,
+          "lat": 41.680872,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -89.148272,
+          "lat": 45.169848,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -96.588056,
+          "lat": 46.282575,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -93.591345,
+          "lat": 41.657894,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -95.866771,
+          "lat": 41.272179,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -100.49252,
+          "lat": 47.021978,
+          "state": "ND",
+          "primary": false
+        },
+        {
+          "lng": -92.463573,
+          "lat": 43.988903,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -92.172408,
+          "lat": 46.726182,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -87.950122,
+          "lat": 42.866093,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -87.915974,
+          "lat": 42.990826,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -96.74616,
+          "lat": 43.570319,
+          "state": "SD",
+          "primary": false
+        },
+        {
+          "lng": -96.72347,
+          "lat": 43.567799,
+          "state": "SD",
+          "primary": false
+        },
+        {
+          "lng": -102.977935,
+          "lat": 41.134667,
+          "state": "NE",
+          "primary": false
+        },
+        {
+          "lng": -96.121492,
+          "lat": 41.169631,
+          "state": "NE",
+          "primary": false
+        },
+        {
+          "lng": -93.9994,
+          "lat": 44.163578,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -95.234783,
+          "lat": 38.623066,
+          "state": "KS",
+          "primary": false
+        },
+        {
+          "lng": -91.685011,
+          "lat": 41.88812,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -90.847702,
+          "lat": 42.450574,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -96.378404,
+          "lat": 42.422232,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -91.556574,
+          "lat": 42.034657,
+          "state": "IA",
+          "primary": false
+        },
+        {
+          "lng": -94.348086,
+          "lat": 46.667465,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -94.018717,
+          "lat": 45.392593,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -94.067839,
+          "lat": 45.413099,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -94.050408,
+          "lat": 45.4139,
+          "state": "MN",
+          "primary": false
+        },
+        {
+          "lng": -93.183228,
+          "lat": 45.127514,
+          "state": "MN",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4139,
+      "name": "Texstar Enterprises, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/Texstar-300x238.png",
+      "website": "http://texstarenterprises.com/",
+      "careers": "https://texstarenterprises.com/careers",
+      "description": "Texstar Enterprises, LLC (\"Texstar\") provides construction and maintenance services for telecommunications providers in the Southwest and Pacific Northwest regions of the United States. We have turnkey capabilities to perform all aspects of aerial and underground line construction, repair, and maintenance services. Headquartered in Selma, Texas, Texstar has been delivering reliable, cost-effective solutions to leading telecommunication providers across the country since 1989. We are fully committed to providing a safe work environment for our employees and continuously strive to exceed the expectations of our customers.",
+      "headquarters": {
+        "address": "17090 Jordan Rd",
+        "city": "Selma",
+        "state": "TX",
+        "zip": "78154",
+        "phone": "(210) 656-8775",
+        "fax": "(210) 656-6441",
+        "lng": -98.303605,
+        "lat": 29.595505
+      },
+      "states": [
+        "OR",
+        "TX"
+      ],
+      "locations": [
+        {
+          "lng": -98.303605,
+          "lat": 29.595505,
+          "state": "TX",
+          "primary": true
+        },
+        {
+          "lng": -98.305923,
+          "lat": 29.597864,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -123.058745,
+          "lat": 44.693353,
+          "state": "OR",
+          "primary": false
+        },
+        {
+          "lng": -97.695833,
+          "lat": 30.130013,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -98.335234,
+          "lat": 29.810712,
+          "state": "TX",
+          "primary": false
+        },
+        {
+          "lng": -122.771138,
+          "lat": 45.258805,
+          "state": "OR",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4147,
+      "name": "Tjader & Highstrom Utility Services, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/tjader-300x156.png",
+      "website": "https://tjaderandhighstrom.com/",
+      "careers": "https://tjaderandhighstrom.com/careers/",
+      "description": "Tjader & Highstrom Utility Services, LLC (\"Tjader\") is an underground utility construction contractor based in Midwestern Wisconsin with crews working throughout the United States. Tjader offers a wide range of services, including underground utilities, buried cable, buried fiber optics, directional boring, trenching, cable pulling, rock sawing, aerial construction, conduit installation, and splicing. Tjader & Highstrom Utility Services was established in 1945 and headquartered in New Richmond, WI. Tjader maintains a commitment to safety, quality and improvement, which has enabled it to maintain long-standing customer relationships. Tjader & Highstrom Utility Services is prepared to meet your needs today as well as for years to come.",
+      "headquarters": {
+        "address": "541 Industrial Boulevard, P.O. Box 307",
+        "city": "New Richmond",
+        "state": "WI",
+        "zip": "54017",
+        "phone": "(715) 246-3440",
+        "fax": "(715) 246-6464",
+        "lng": -92.544859,
+        "lat": 45.13394
+      },
+      "states": [
+        "WI"
+      ],
+      "locations": [
+        {
+          "lng": -92.544859,
+          "lat": 45.13394,
+          "state": "WI",
+          "primary": true
+        },
+        {
+          "lng": -92.536586,
+          "lat": 45.123021,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -92.457266,
+          "lat": 44.953077,
+          "state": "WI",
+          "primary": false
+        },
+        {
+          "lng": -91.673476,
+          "lat": 44.88703,
+          "state": "WI",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4152,
+      "name": "Trawick Construction Company, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/trawick-logo-new-300x210.png",
+      "website": "http://trawickconstruction.com/",
+      "careers": "https://trawickconstruction.com/careers/",
+      "description": "Dating back to 1946, Trawick Construction Company, LLC (\"Trawick\") has offices in Florida, Georgia, Alabama and Oklahoma. Trawick is known as one of the Southeast\u2019s most dedicated telecom construction specialists, both in our work and in our community engagement. We provide turnkey solutions and boast a portfolio of work for some of the biggest names in the industry. Over the past seven decades, Trawick has built a reputation as one of the most capable telecom contractors in America\u2019s Southeast. Our headquarters are rooted in Florida, with operations extending throughout Alabama and Georgia. We offer full services for the region\u2019s communications industry, backed by a team of 158 skilled professionals and a fleet of 120 service vehicles.",
+      "headquarters": {
+        "address": "1555 South Boulevard",
+        "city": "Chipley",
+        "state": "FL",
+        "zip": "32428",
+        "phone": "(850) 638-0429",
+        "fax": "",
+        "lng": -85.564087,
+        "lat": 30.771218
+      },
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "OK"
+      ],
+      "locations": [
+        {
+          "lng": -85.564087,
+          "lat": 30.771218,
+          "state": "FL",
+          "primary": true
+        },
+        {
+          "lng": -87.323694,
+          "lat": 31.524509,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -82.674713,
+          "lat": 30.174631,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -84.40125,
+          "lat": 31.734569,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -85.31033,
+          "lat": 31.19266,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -85.566272,
+          "lat": 30.771841,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -85.427623,
+          "lat": 31.204509,
+          "state": "AL",
+          "primary": false
+        },
+        {
+          "lng": -95.760796,
+          "lat": 36.153399,
+          "state": "OK",
+          "primary": false
+        },
+        {
+          "lng": -83.730167,
+          "lat": 32.49678,
+          "state": "GA",
+          "primary": false
+        },
+        {
+          "lng": -83.737069,
+          "lat": 31.159836,
+          "state": "GA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4165,
+      "name": "Triple-D Communications, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/triple-d-300x69.png",
+      "website": "http://www.tdllc.com/",
+      "careers": "https://tdllc.com/careers/",
+      "description": "Triple-D Communications, LLC (\"Triple-D\") is a specialty contractor for telecommunications and utility customers, government agencies, corporations, and higher education. From the building and placement of external and internal infrastructure to the installation and repair of existing telecommunications systems, Triple-D specializes in meeting all of its customer's needs. Headquartered in Nicholasville, Kentucky, Triple-D serves the Midwestern and Southeastern United States. Founded in 1977, Triple-D is committed to exemplary craftsmanship and customer satisfaction in both urban and rural environments. The company's experienced management ensures that all work meets the standards it expects and customers demand.",
+      "headquarters": {
+        "address": "3006 Park Central Ave.",
+        "city": "Nicholasville",
+        "state": "KY",
+        "zip": "40356",
+        "phone": "(859) 887-4683",
+        "fax": "(859) 885-9824",
+        "lng": -84.545043,
+        "lat": 37.935141
+      },
+      "states": [
+        "AR",
+        "KY",
+        "OH",
+        "PA"
+      ],
+      "locations": [
+        {
+          "lng": -84.545043,
+          "lat": 37.935141,
+          "state": "KY",
+          "primary": true
+        },
+        {
+          "lng": -83.714793,
+          "lat": 37.806239,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -84.088394,
+          "lat": 37.145147,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -83.868697,
+          "lat": 40.893479,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -84.240228,
+          "lat": 40.122013,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -94.520899,
+          "lat": 36.164113,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -82.95192,
+          "lat": 39.320364,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -94.520899,
+          "lat": 36.164113,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -84.186659,
+          "lat": 40.557858,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -84.69843,
+          "lat": 37.572155,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -93.86897,
+          "lat": 35.512052,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -82.595279,
+          "lat": 40.77577,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -84.543622,
+          "lat": 37.934052,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -82.383071,
+          "lat": 40.064358,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -82.475191,
+          "lat": 40.755499,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -84.087539,
+          "lat": 37.14534,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -80.344202,
+          "lat": 41.964905,
+          "state": "PA",
+          "primary": false
+        },
+        {
+          "lng": -83.740624,
+          "lat": 38.412273,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -85.842065,
+          "lat": 37.679873,
+          "state": "KY",
+          "primary": false
+        },
+        {
+          "lng": -82.738026,
+          "lat": 38.397095,
+          "state": "KY",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4185,
+      "name": "UtiliQuest, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/01/UtiliQuest-Logo_Color-300x83.png",
+      "website": "http://www.utiliquest.com/",
+      "careers": "https://utiliquest.com/careers/",
+      "description": "UtiliQuest, LLC (\"UtiliQuest\") is a leading provider of damage prevention and infrastructure related services to telecommunications, gas, and electric companies. Services include underground facility locating and other technical services. Additionally, UtiliQuest's services include leak detection for gas utilities and meter reading services for electric and gas utilities. Headquartered in Atlanta, Georgia, UtiliQuest has provided locating services since 1985 and services customers throughout the United States. UtiliQuest's experience, innovation, and commitment to providing value-added services have resulted in safer excavations, reduced damages, improved data accuracy and lower cost services for clients. This commitment and the people behind it are the foundation of UtiliQuest's continuing leadership of the outsourced services industry.",
+      "headquarters": {
+        "address": "2575 Westside Parkway, Ste.100",
+        "city": "Alpharetta",
+        "state": "GA",
+        "zip": "30004",
+        "phone": "(678) 461-3900",
+        "fax": "(678) 461-3902",
+        "lng": -84.272444,
+        "lat": 34.08394
+      },
+      "states": [
+        "AR",
+        "CA",
+        "DE",
+        "FL",
+        "GA",
+        "IN",
+        "MD",
+        "NJ",
+        "OH",
+        "SC",
+        "TN",
+        "VA"
+      ],
+      "locations": [
+        {
+          "lng": -84.272444,
+          "lat": 34.08394,
+          "state": "GA",
+          "primary": true
+        },
+        {
+          "lng": -86.947101,
+          "lat": 35.641264,
+          "state": "TN",
+          "primary": false
+        },
+        {
+          "lng": -80.095155,
+          "lat": 26.837211,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -81.418611,
+          "lat": 28.581189,
+          "state": "FL",
+          "primary": false
+        },
+        {
+          "lng": -119.2735,
+          "lat": 36.332318,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -75.735559,
+          "lat": 39.112122,
+          "state": "DE",
+          "primary": false
+        },
+        {
+          "lng": -121.394939,
+          "lat": 38.671696,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -122.057215,
+          "lat": 37.610419,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -118.037507,
+          "lat": 34.049109,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -117.14423,
+          "lat": 32.889488,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -117.32925,
+          "lat": 34.050159,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -86.185461,
+          "lat": 41.063149,
+          "state": "IN",
+          "primary": false
+        },
+        {
+          "lng": -82.99929,
+          "lat": 40.114607,
+          "state": "OH",
+          "primary": false
+        },
+        {
+          "lng": -76.550141,
+          "lat": 37.163184,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -77.399053,
+          "lat": 37.618233,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -81.088966,
+          "lat": 33.986809,
+          "state": "SC",
+          "primary": false
+        },
+        {
+          "lng": -92.508551,
+          "lat": 34.612985,
+          "state": "AR",
+          "primary": false
+        },
+        {
+          "lng": -76.890155,
+          "lat": 39.060972,
+          "state": "MD",
+          "primary": false
+        },
+        {
+          "lng": -74.273922,
+          "lat": 40.229846,
+          "state": "NJ",
+          "primary": false
+        },
+        {
+          "lng": -77.511151,
+          "lat": 38.807213,
+          "state": "VA",
+          "primary": false
+        },
+        {
+          "lng": -84.274406,
+          "lat": 34.083961,
+          "state": "GA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 7970,
+      "name": "Utility Technologies, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2024/05/UTI-Logo-Stacked_color-300x133.png",
+      "website": "https://utilitytechnologies.net/",
+      "careers": "https://utilitytechnologies.net/careers/",
+      "description": "Utility Technologies, LLC is a specialized service contractor, covering all aspects of outside plant communications construction including underground and aerial construction. Utility Technologies' team of quality supervisors has decades of experience and pride themselves on being able to assist with engineering, planning and logistics to help clients bring their projects to life in the most economic and timely manner. Established in 2005 and headquartered in Woodinville, Washington, Utility Technologies serves customers in Washington, Oregon, Idaho and Alaska. UTI has performed utility construction in all corners of Alaska to include Nome, Prudhoe Bay, Kodiak Island, Ketchikan, Kenai Peninsula, Fairbanks, Anchorage and the Alaska Peninsula . UTI\u2019s underground construction department has completed many large projects throughout the region, and its large fleet of specialty equipment allows it to work in the most challenging terrain.",
+      "headquarters": {
+        "address": "18612 142nd Ave NE",
+        "city": "Woodinville",
+        "state": "WA",
+        "zip": "98072",
+        "phone": "(425) 205-2190",
+        "fax": "",
+        "lng": -122.150687,
+        "lat": 47.762367
+      },
+      "states": [
+        "AK",
+        "WA"
+      ],
+      "locations": [
+        {
+          "lng": -122.150687,
+          "lat": 47.762367,
+          "state": "WA",
+          "primary": true
+        },
+        {
+          "lng": -151.860671,
+          "lat": 66.820871,
+          "state": "AK",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4208,
+      "name": "VCI Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/01/vci-logo-300x180.png",
+      "website": "http://www.vcicom.com/",
+      "careers": "https://vcicom.com/careers/",
+      "description": "VCI Construction, LLC (\"VCI\") is a full service contractor, specializing in building networks that bring utilities into customers' organizations and businesses. VCI is a reliable source in the telecommunication and wet utility industries for services including engineering, underground substructure, aerial, storm drainage, sewer, wet utility infrastructure, and wireless communications. VCI's wet utility department has a thorough knowledge of industry requirements and takes great pride in providing high quality of work for a competitive price. Since establishment in 1993, VCI has installed and maintained thousands of miles of conduit and completed several thousand miles of network construction. Headquartered in Upland, California, VCI has the unique advantage of understanding the California geographic market, allowing it to execute any size project under rigid time constraints.",
+      "headquarters": {
+        "address": "1921 West 11th Street",
+        "city": "Upland",
+        "state": "CA",
+        "zip": "91786",
+        "phone": "(909) 949-1350",
+        "fax": "",
+        "lng": -117.685909,
+        "lat": 34.103606
+      },
+      "states": [
+        "CA",
+        "NV"
+      ],
+      "locations": [
+        {
+          "lng": -117.685909,
+          "lat": 34.103606,
+          "state": "CA",
+          "primary": true
+        },
+        {
+          "lng": -117.890517,
+          "lat": 33.816769,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -118.386414,
+          "lat": 34.222921,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -118.16502,
+          "lat": 33.865898,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -117.868299,
+          "lat": 33.85559,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -117.200315,
+          "lat": 33.142325,
+          "state": "CA",
+          "primary": false
+        },
+        {
+          "lng": -114.994981,
+          "lat": 36.069551,
+          "state": "NV",
+          "primary": false
+        },
+        {
+          "lng": -118.383379,
+          "lat": 34.223265,
+          "state": "CA",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": 4217,
+      "name": "White Mountain Cable Construction, LLC",
+      "logo": "https://dycomind.com/wp-content/uploads/2023/03/wmc-logo-color-300x156.png",
+      "website": "http://www.wmc1.com/",
+      "careers": "https://www.wmc1.com/careers/",
+      "description": "White Mountain Cable Construction, LLC (\"White Mountain Cable\") is a full service telecommunications construction provider specializing in total outside plant construction. White Mountain Cable performs aerial and underground construction services including all phases of make-ready, strand, coaxial, copper and optical fiber cable construction, directional boring and hard surface excavation. The company also provides optical fiber cable system design, splicing, and emergency restoration services. White Mountain Cable specializes in engineering and technical support consisting of coaxial cable splicers, broadband engineers and technicians who provide full new build, rebuild, upgrade and maintenance services as well as system testing and certification in advanced video, high speed data and telephony. Headquartered in Epsom, New Hampshire, White Mountain Cable was founded in 1971 and provides services throughout the Northeast United States. The well trained staff and associates are committed to the highest quality service and system development available as well as maintaining a safe working environment for crews and the public. White Mountain Cable has the expertise to build telecommunications systems wherever needed.",
+      "headquarters": {
+        "address": "111 Greenmont Road",
+        "city": "Rising Sun",
+        "state": "MD",
+        "zip": "21911",
+        "phone": "(800) 233-7350",
+        "fax": "(603) 736-81630",
+        "lng": -76.034625,
+        "lat": 39.718198
+      },
+      "states": [
+        "MA",
+        "MD",
+        "ME",
+        "NH",
+        "NY"
+      ],
+      "locations": [
+        {
+          "lng": -76.034625,
+          "lat": 39.718198,
+          "state": "MD",
+          "primary": true
+        },
+        {
+          "lng": -69.913586,
+          "lat": 44.788251,
+          "state": "ME",
+          "primary": false
+        },
+        {
+          "lng": -72.626059,
+          "lat": 42.411031,
+          "state": "MA",
+          "primary": false
+        },
+        {
+          "lng": -75.55469,
+          "lat": 43.040267,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -73.756811,
+          "lat": 43.50593,
+          "state": "NY",
+          "primary": false
+        },
+        {
+          "lng": -71.379329,
+          "lat": 43.232327,
+          "state": "NH",
+          "primary": false
+        }
+      ]
+    }
+  ]
+}

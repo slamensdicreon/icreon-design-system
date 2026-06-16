@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Dycom companies map — branded Mapbox popup */
+.dycom-popup .mapboxgl-popup-content {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #0d1b2a;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+.dycom-popup .mapboxgl-popup-tip {
+  border-top-color: #ffffff;
+}

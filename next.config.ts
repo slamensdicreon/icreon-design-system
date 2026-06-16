@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "*.blob.core.windows.net",
       },
+      {
+        protocol: "https",
+        hostname: "dycomind.com",
+      },
     ],
   },
   async headers() {
