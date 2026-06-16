@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dycom Family of Companies — Interactive Map
 
-## Getting Started
+An interactive map for browsing Dycom's 38 operating companies and their
+nationwide network of 551 locations across all 50 states. Built with
+Next.js and Mapbox GL.
 
-First, run the development server:
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Mapbox token
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The map needs a public Mapbox token. Add it to `.env.local`:
 
-## Learn More
+```bash
+NEXT_PUBLIC_MAPBOX_TOKEN=pk.xxxxx
+```
 
-To learn more about Next.js, take a look at the following resources:
+Create a token at https://account.mapbox.com/access-tokens/. It is a
+`NEXT_PUBLIC_` variable, so it is inlined at build time and must be set
+before `pnpm build` / before the Vercel build runs. Without it, the page
+still loads but the map area shows a placeholder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/page.tsx` — page shell with the branded hero and stats
+- `src/app/CompaniesExplorer.tsx` — searchable sidebar + company detail
+- `src/app/DycomMap.tsx` — Mapbox map (clustered locations + focus layer)
+- `src/app/data/dycom-companies.json` — the company + location dataset
+- `src/app/brand.ts` — Dycom brand tokens and state-name lookup
