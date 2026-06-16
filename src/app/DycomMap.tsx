@@ -150,10 +150,27 @@ export default function DycomMap({
         filter: ["has", "point_count"],
         layout: {
           "text-field": ["get", "point_count_abbreviated"],
-          "text-font": ["DIN Pro Medium", "Arial Unicode MS Bold"],
-          "text-size": 13,
+          "text-font": ["DIN Pro Bold", "Arial Unicode MS Bold"],
+          "text-size": [
+            "step",
+            ["get", "point_count"],
+            14,
+            10,
+            16,
+            40,
+            18,
+            120,
+            20,
+          ],
+          "text-allow-overlap": true,
+          "text-ignore-placement": true,
         },
-        paint: { "text-color": "#ffffff" },
+        paint: {
+          "text-color": "#ffffff",
+          "text-halo-color": brand.blueDark,
+          "text-halo-width": 1.4,
+          "text-halo-blur": 0.2,
+        },
       });
 
       map.addLayer({
