@@ -3,96 +3,89 @@
 import { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { Company, toFeatureCollection } from "./types";
 import { brand } from "./brand";
 
+type FC = GeoJSON.FeatureCollection<GeoJSON.Point>;
+
 interface DycomMapProps {
-  companies: Company[];
   token: string;
-  selectedId: number | null;
-  hoveredId: number | null;
-  onSelect: (id: number | null) => void;
+  /** Clustered base layer (all locations or all open roles). */
+  baseData: FC;
+  /** Highlighted points for the selected/hovered company. */
+  focusData: FC;
+  /** Coordinates to frame when the selection changes. */
+  focusBounds: [number, number][] | null;
+  /** Changes to trigger a camera move; null resets to the national view. */
+  selectionKey: number | null;
+  onSelectCompany: (id: number) => void;
 }
 
-const EMPTY_FC: GeoJSON.FeatureCollection<GeoJSON.Point> = {
-  type: "FeatureCollection",
-  features: [],
-};
-
+const EMPTY_FC: FC = { type: "FeatureCollection", features: [] };
 const US_CENTER: [number, number] = [-96, 38.5];
 
 export default function DycomMap({
-  companies,
   token,
-  selectedId,
-  hoveredId,
-  onSelect,
+  baseData,
+  focusData,
+  focusBounds,
+  selectionKey,
+  onSelectCompany,
 }: DycomMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const loadedRef = useRef(false);
   const popupRef = useRef<mapboxgl.Popup | null>(null);
 
-  // Keep the latest props available to map event handlers without re-binding.
-  const companiesRef = useRef(companies);
-  const selectedRef = useRef(selectedId);
-  const hoveredRef = useRef(hoveredId);
-  const onSelectRef = useRef(onSelect);
-  const prevSelectedRef = useRef<number | null>(null);
+  const baseRef = useRef(baseData);
+  const focusRef = useRef(focusData);
+  const boundsRef = useRef(focusBounds);
+  const selectionRef = useRef(selectionKey);
+  const onSelectRef = useRef(onSelectCompany);
+  const prevSelectionRef = useRef<number | null>(null);
 
-  // Keep refs in sync after each render so map event handlers (bound once) can
-  // read the latest props without being re-created.
   useEffect(() => {
-    companiesRef.current = companies;
-    selectedRef.current = selectedId;
-    hoveredRef.current = hoveredId;
-    onSelectRef.current = onSelect;
+    baseRef.current = baseData;
+    focusRef.current = focusData;
+    boundsRef.current = focusBounds;
+    selectionRef.current = selectionKey;
+    onSelectRef.current = onSelectCompany;
   });
 
-  // ---- Reflect the current selection / hover onto the map ----
   function applyFocus() {
     const map = mapRef.current;
     if (!map || !loadedRef.current) return;
 
-    const focusId = selectedRef.current ?? hoveredRef.current;
-    const company = focusId
-      ? companiesRef.current.find((c) => c.id === focusId) ?? null
-      : null;
-
-    const focusSource = map.getSource("focus") as mapboxgl.GeoJSONSource | undefined;
-    focusSource?.setData(company ? toFeatureCollection([company]) : EMPTY_FC);
-
-    // Dim the nationwide layer while a single company is in focus.
-    const baseOpacity = company ? 0.12 : 1;
-    map.setPaintProperty("clusters", "circle-opacity", baseOpacity);
-    map.setPaintProperty("clusters", "circle-stroke-opacity", baseOpacity);
-    map.setPaintProperty("cluster-count", "text-opacity", company ? 0.15 : 1);
-    map.setPaintProperty("unclustered-point", "circle-opacity", baseOpacity);
-    map.setPaintProperty(
-      "unclustered-point",
-      "circle-stroke-opacity",
-      baseOpacity,
+    (map.getSource("focus") as mapboxgl.GeoJSONSource | undefined)?.setData(
+      focusRef.current,
     );
 
-    // Fly the map only on an explicit selection change (not on hover).
-    const selected = selectedRef.current;
-    if (selected !== prevSelectedRef.current) {
-      if (selected && company) {
+    const hasFocus = focusRef.current.features.length > 0;
+    const baseOpacity = hasFocus ? 0.12 : 1;
+    map.setPaintProperty("clusters", "circle-opacity", baseOpacity);
+    map.setPaintProperty("clusters", "circle-stroke-opacity", baseOpacity);
+    map.setPaintProperty("cluster-count", "text-opacity", hasFocus ? 0.15 : 1);
+    map.setPaintProperty("unclustered-point", "circle-opacity", baseOpacity);
+    map.setPaintProperty("unclustered-point", "circle-stroke-opacity", baseOpacity);
+
+    const key = selectionRef.current;
+    if (key !== prevSelectionRef.current) {
+      const pts = boundsRef.current;
+      if (key != null && pts && pts.length) {
         const bounds = new mapboxgl.LngLatBounds();
-        company.locations.forEach((l) => bounds.extend([l.lng, l.lat]));
+        pts.forEach((p) => bounds.extend(p));
         map.fitBounds(bounds, {
           padding: { top: 90, bottom: 90, left: 90, right: 90 },
           maxZoom: 8.5,
           duration: 900,
         });
-      } else if (!selected) {
+      } else if (key == null) {
         map.easeTo({ center: US_CENTER, zoom: 3.4, duration: 800 });
       }
-      prevSelectedRef.current = selected;
+      prevSelectionRef.current = key;
     }
   }
 
-  // ---- Create the map once ----
+  // Create the map once.
   useEffect(() => {
     if (!token || !containerRef.current || mapRef.current) return;
 
@@ -104,17 +97,15 @@ export default function DycomMap({
       zoom: 3.4,
       minZoom: 2.5,
       maxZoom: 14,
-      attributionControl: true,
     });
     mapRef.current = map;
-
     map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-right");
-    map.scrollZoom.disable(); // avoid hijacking page scroll; users zoom with +/- or pinch
+    map.scrollZoom.disable();
 
     map.on("load", () => {
       map.addSource("locations", {
         type: "geojson",
-        data: toFeatureCollection(companiesRef.current),
+        data: baseRef.current,
         cluster: true,
         clusterRadius: 46,
         clusterMaxZoom: 9,
@@ -186,19 +177,13 @@ export default function DycomMap({
         },
       });
 
-      // Focus layer: the selected / hovered company's locations.
       map.addSource("focus", { type: "geojson", data: EMPTY_FC });
       map.addLayer({
         id: "focus-point",
         type: "circle",
         source: "focus",
         paint: {
-          "circle-color": [
-            "case",
-            ["get", "primary"],
-            brand.orange,
-            brand.green,
-          ],
+          "circle-color": ["case", ["get", "primary"], brand.orange, brand.green],
           "circle-radius": ["case", ["get", "primary"], 9, 6.5],
           "circle-stroke-width": 2.5,
           "circle-stroke-color": "#ffffff",
@@ -208,22 +193,15 @@ export default function DycomMap({
       loadedRef.current = true;
       applyFocus();
 
-      // --- Interactions ---
       map.on("click", "clusters", (e) => {
-        const features = map.queryRenderedFeatures(e.point, {
-          layers: ["clusters"],
-        });
+        const features = map.queryRenderedFeatures(e.point, { layers: ["clusters"] });
         const clusterId = features[0]?.properties?.cluster_id;
         if (clusterId == null) return;
         const src = map.getSource("locations") as mapboxgl.GeoJSONSource;
         src.getClusterExpansionZoom(clusterId, (err, zoom) => {
           if (err || zoom == null) return;
           const geom = features[0].geometry as GeoJSON.Point;
-          map.easeTo({
-            center: geom.coordinates as [number, number],
-            zoom,
-            duration: 600,
-          });
+          map.easeTo({ center: geom.coordinates as [number, number], zoom, duration: 600 });
         });
       });
 
@@ -238,7 +216,10 @@ export default function DycomMap({
         const f = e.features?.[0];
         if (!f) return;
         map.getCanvas().style.cursor = "pointer";
-        const name = f.properties?.companyName as string;
+        const p = f.properties ?? {};
+        const label = p.title
+          ? `<strong>${p.title}</strong><br/>${p.companyName}`
+          : `<strong>${p.companyName}</strong>`;
         const geom = f.geometry as GeoJSON.Point;
         if (!popupRef.current) {
           popupRef.current = new mapboxgl.Popup({
@@ -250,7 +231,7 @@ export default function DycomMap({
         }
         popupRef.current
           .setLngLat(geom.coordinates as [number, number])
-          .setHTML(`<strong>${name}</strong>`)
+          .setHTML(label)
           .addTo(map);
       };
       const hidePopup = () => {
@@ -259,11 +240,8 @@ export default function DycomMap({
       };
       ["unclustered-point", "focus-point", "clusters"].forEach((layer) => {
         map.on("mouseenter", layer, (e) => {
-          if (layer === "clusters") {
-            map.getCanvas().style.cursor = "pointer";
-          } else {
-            showPopup(e);
-          }
+          if (layer === "clusters") map.getCanvas().style.cursor = "pointer";
+          else showPopup(e);
         });
         map.on("mouseleave", layer, hidePopup);
       });
@@ -276,10 +254,19 @@ export default function DycomMap({
     };
   }, [token]);
 
-  // ---- React to selection / hover / data changes ----
+  // Swap the clustered base layer when the data set (locations vs roles) changes.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !loadedRef.current) return;
+    (map.getSource("locations") as mapboxgl.GeoJSONSource | undefined)?.setData(
+      baseData,
+    );
+  }, [baseData]);
+
+  // Reflect selection / hover changes.
   useEffect(() => {
     applyFocus();
-  }, [selectedId, hoveredId, companies]);
+  }, [focusData, selectionKey, focusBounds]);
 
   if (!token) {
     return (
@@ -293,8 +280,7 @@ export default function DycomMap({
             <code className="rounded bg-slate-200 px-1 py-0.5 text-xs">
               NEXT_PUBLIC_MAPBOX_TOKEN
             </code>{" "}
-            in your environment to enable the map. You can still browse every
-            company in the list on the left.
+            to enable the map. You can still browse everything in the panel.
           </p>
         </div>
       </div>
